@@ -1,0 +1,65 @@
+\chapter{统计数据的描述}
+
+使用图形描述统计结果是应用统计的基本技能之一。人类在接受信息时，大脑皮层总是优先提取可视化的图形，其次才是具体的文字内容。一些漂亮的图形会使得读者或观众迅速得知我们想要表达的信息。因此不论是写论文，还是汇报展示，做到图文并茂非常重要。
+
+由于 Python 具有良好的可扩展性，它在画图方面具有大量的绘图包，包括 模仿 Matlab 绘图风格的 matplotlib, 画地理图形的  geoplotlib，能在浏览器中生成优美图形的 Pyechart等。其中，matplotlib 是统计分析中应用最普遍的绘图包之一。本章首先将展示如何用 Python 整理统计数据，然后使用 matplotlib 来画出各种各样的统计图形。
+
+
+\section{统计数据的整理}
+\subsection{数据审核}
+
+\subsection{数据排序}
+
+
+\subsection{数据分组}
+
+
+
+
+\section{统计数据的图形展示}
+
+使用 matplotlib 包画图时，我们一般用里面的 plot 函数，加载宏包时命名为 plt。
+
+
+\begin{lstlisting}[language=Python]
+# 导入 matplotlib 中的 plot， 并命名为常用名 plt
+import matplotlib.plot as plt 
+\end{lstlisting}
+
+例如，下面的代码画出正弦函数 $y=sin(x)$ 的图形。
+
+
+\begin{lstlisting}[language=Python]
+# 导入宏包
+import matplotlib.pyplot as plt
+import numpy as np
+
+# 生成数据
+x = np.arange(0, 10, 0.1)
+y = np.sin(x)
+
+# 生成图形
+plt.plot(x, y)
+
+# 显示图形
+plt.show()
+
+\end{lstlisting}
+
+
+
+
+\subsection{线图}
+
+\subsection{散点图}
+
+\subsection{直方图}
+
+\subsection{饼图}
+
+\subsection{箱型图}
+
+\subsection{雷达图}
+
+\subsection{三维图形}
+
