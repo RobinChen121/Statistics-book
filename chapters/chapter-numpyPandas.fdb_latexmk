@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "chapter-numpyPandas.xdv" "chapter-numpyPandas.pdf" "chapter-numpyPandas" 0
+  "chapter-numpyPandas.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "chapter-numpyPandas.pdf"
+["xelatex"] 1566578557 "chapter-numpyPandas.tex" "chapter-numpyPandas.xdv" "chapter-numpyPandas" 1566578557
+  "chapter-numpyPandas.aux" 1566578432 9 a94a2480d3289e625eea47cd1b285758 ""
+  "chapter-numpyPandas.tex" 1566578432 113 fd441a5d8be1285720190ae4d1ac2af3 ""
+  "d:/texlive/2019/texmf-dist/web2c/texmf.cnf" 1565871058 39359 08243a440b2635053cec8490846b238a ""
+  "d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1565873138 3752616 15ccc77ef067a984bd70e7c57178895e ""
+  "d:/texlive/2019/texmf.cnf" 1565872905 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+  (generated)
+  "chapter-numpyPandas.xdv"
+  "chapter-numpyPandas.log"

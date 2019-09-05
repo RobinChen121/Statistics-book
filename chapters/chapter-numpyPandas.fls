@@ -2,6 +2,5 @@ PWD D:/Users/chen_/git/Statistics-book/chapters
 INPUT d:/texlive/2019/texmf.cnf
 INPUT d:/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt
-INPUT chapter-description-of-statistic-data.tex
-OUTPUT chapter-description-of-statistic-data.log
-OUTPUT chapter-description-of-statistic-data.xdv
+INPUT chapter-numpyPandas.tex
+OUTPUT chapter-numpyPandas.log

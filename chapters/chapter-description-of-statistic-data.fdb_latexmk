@@ -1,14 +1,14 @@
 # Fdb version 3
-["xdvipdfmx"] 0 "chapter-description-of-statistic-data.xdv" "chapter-description-of-statistic-data.pdf" "chapter-description-of-statistic-data" 0
-  "chapter-description-of-statistic-data.xdv" 0 -1 0 "xelatex"
+["xdvipdfmx"] 1566668194 "chapter-description-of-statistic-data.xdv" "chapter-description-of-statistic-data.pdf" "chapter-description-of-statistic-data" 1566668195
+  "chapter-description-of-statistic-data.xdv" 1566668193 7428 66419e668ea23244f47914e5034c17c7 "xelatex"
   (generated)
   "chapter-description-of-statistic-data.pdf"
-["xelatex"] 1566313160 "chapter-description-of-statistic-data.tex" "chapter-description-of-statistic-data.xdv" "chapter-description-of-statistic-data" 1566313161
-  "chapter-description-of-statistic-data.aux" 1566312908 9 a94a2480d3289e625eea47cd1b285758 ""
-  "chapter-description-of-statistic-data.tex" 1566283248 1690 b03bfbbc7d0dadf862a414227b851db1 ""
+["xelatex"] 1566668193 "chapter-description-of-statistic-data.tex" "chapter-description-of-statistic-data.xdv" "chapter-description-of-statistic-data" 1566668195
+  "chapter-description-of-statistic-data.aux" 1566660829 9 a94a2480d3289e625eea47cd1b285758 ""
+  "chapter-description-of-statistic-data.tex" 1566668192 24966 f8f194a1d8a26776316fe5948ee2a3d9 ""
   "d:/texlive/2019/texmf-dist/web2c/texmf.cnf" 1565871058 39359 08243a440b2635053cec8490846b238a ""
   "d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1565873138 3752616 15ccc77ef067a984bd70e7c57178895e ""
   "d:/texlive/2019/texmf.cnf" 1565872905 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   (generated)
-  "chapter-description-of-statistic-data.log"
   "chapter-description-of-statistic-data.xdv"
+  "chapter-description-of-statistic-data.log"

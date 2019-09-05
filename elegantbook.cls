@@ -10,6 +10,8 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{elegantbook}[2019/05/26 v3.08 ElegantBook document class]
 
+%\RequirePackage{textcomp}
+
 \RequirePackage{kvoptions}
 \RequirePackage{etoolbox}
 \SetupKeyvalOptions{family=ELEGANT, prefix=ELEGANT@, setkeys=\kvsetkeys}
@@ -79,7 +81,6 @@
 \let\Bbbk\relax
 \RequirePackage[lite]{mtpro2}
 }{\relax}
-
 
 \PassOptionsToPackage{no-math}{fontspec}
 \ifdefstring{\ELEGANT@lang}{cn}{
@@ -331,9 +332,10 @@
 	footskip=4mm
 }}{\relax}
 
+\RequirePackage{multirow}
 \RequirePackage{hyperref}
 \hypersetup{
-	breaklinks,
+	breaklinks = true,
 	unicode,
 	linktoc=all,
 	bookmarksnumbered=true,
@@ -383,6 +385,13 @@
 \RequirePackage[many]{tcolorbox}
 \ifdefstring{\ELEGANT@mode}{fancy}{
 \tcbset{
+before skip=10pt plus 2pt,
+center title,
+fonttitle=\bfseries,
+colframe=blue!25!yellow!90!white,
+colback=blue!25!yellow!5!white,
+coltitle=blue!25!yellow!40!black,
+width = \linewidth,
     common/.style={
         fontupper=\ifdefstring{\ELEGANT@lang}{en}{\itshape}{\upshape\kaishu},
         lower separated=false,
@@ -597,7 +606,7 @@
   		bottomrule=0.5pt,
   		top=8pt,
         before skip=8pt,
-  		sharp corners
+  		sharp corners.
     },
 }
 
@@ -725,7 +734,8 @@
 }
 
 
-
+\RequirePackage{subcaption}
+\captionsetup[sub]{font=scriptsize, justification=raggedright, singlelinecheck=false}
 
 \RequirePackage{listings}
 \renewcommand{\ttdefault}{cmtt}
@@ -736,26 +746,35 @@
 }
 
 \lstset{basicstyle=\ttfamily,style=mystyle,breaklines=true}
-\lstset{aboveskip=20pt,belowskip=20pt}
+\lstset{aboveskip=10pt,belowskip=10pt}
+
+\lstset{upquote=true} % 调整单引号显示样式
+\lstset{showstringspaces=false}
 
 \definecolor{lightgrey}{rgb}{0.8,0.8,0.8}
 \definecolor{frenchplum}{RGB}{190,20,83}
-\lstset{language=[LaTeX]TeX,
+
+\lstset{language=Python,
 	texcsstyle=*\color{winered},
 	numbers=none,
 	breaklines=true,
-	keywordstyle=\color{winered},
+	deletekeywords={len},
+	keywords = {import, True, False, as, for, try, and, else, or, lambda, in, break, return, def, continue, final, is, global, elif, if, not, assert, from, with, del},
+	keywordstyle=\color{blue},
 	commentstyle=\color{gray},
-	emph={elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,device,color,mode,lang,amsthm,tcolorbox,titlestyle,cite,marginnote,ctex,listings},
-	emphstyle={\color{frenchplum}},
-	morekeywords={DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont ,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,definecolor,extrainfo,logo,cover,subtitle,appendix,chapter,hypersetup,mainmatter,tableofcontents,elegantpar,numbers,authoryear,heiti,kaishu,lstset,pagecolor,zhnumber,marginpar,part,equote},
+	% emph={elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,device,color,mode,lang,amsthm,tcolorbox,titlestyle,cite,marginnote,ctex,listings},
+	% emphstyle={\color{frenchplum}},
+	% morekeywords={DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont ,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,definecolor,extrainfo,logo,cover,subtitle,appendix,chapter,hypersetup,mainmatter,tableofcontents,elegantpar,numbers,authoryear,heiti,kaishu,lstset,pagecolor,zhnumber,marginpar,part,equote},
 	frame=single,
 	tabsize=2,
 	rulecolor=\color{structurecolor},
 	framerule=0.2pt,
 	columns=flexible,
-	%backgroundcolor=\color{lightgrey}
+	morestring=[d]{'}, % wrong: should be [b]
+  morestring=*[d]{"},
+	stringstyle=\color{olive},
 }
+
 
 \RequirePackage{bm}
 \newif\ifstartedinmathmode
