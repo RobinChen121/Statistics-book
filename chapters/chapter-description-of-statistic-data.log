@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.15)  25 AUG 2019 17:05
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.15)  12 SEP 2019 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2461,6 +2461,13 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 或 in font nullfont!
+Missing character: There is no 写 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no ） in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 图 in font nullfont!
 Missing character: There is no 像 in font nullfont!
@@ -2824,19 +2831,12 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no ) in font nullfont!
 ./chapter-description-of-statistic-data.tex:129: You can't use `macro parameter character #' in horizontal mode.
-l.129 ..., 'yo:', label='y=sin(x)', linewidth=2) #
+l.129 ...ot(x, y, 'yo:', label='y=sin(x)', lw=2) #
                                                    颜色为黄色('y')，点形为圆形('o')，线形为...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3948,7 +3948,23 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 165--170
 
 ./chapter-description-of-statistic-data.tex:172: Undefined control sequence.
 l.172 \section
-              {线图}
+              {常用图形的绘制}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 常 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 图 in font nullfont!
+Missing character: There is no 形 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 绘 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+./chapter-description-of-statistic-data.tex:173: Undefined control sequence.
+l.173 \subsection
+                 {线图}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3958,8 +3974,8 @@ and I'll forget about whatever was undefined.
 Missing character: There is no 线 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 172--173
-[] 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 172--174
+[]
  []
 
 Missing character: There is no 在 in font nullfont!
@@ -4026,10 +4042,10 @@ Missing character: There is no 趋 in font nullfont!
 Missing character: There is no 势 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no 表 in font nullfont!
-./chapter-description-of-statistic-data.tex:174: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:175: Undefined control sequence.
 <write> ...Reference `table:GDP' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.174 ...为从线图中可以清晰地看出数据虽时间变化的趋势。 表 \ref{table:GDP}
+l.175 ...为从线图中可以清晰地看出数据虽时间变化的趋势。 表 \ref{table:GDP}
                                                    是我国近10年的 GDP 增长率，以及三大产业在近...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4038,7 +4054,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `table:GDP' on page  undefined on input line 174.
+LaTeX Warning: Reference `table:GDP' on page  undefined on input line 175.
 
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 我 in font nullfont!
@@ -4072,23 +4088,23 @@ Missing character: There is no 长 in font nullfont!
 Missing character: There is no 率 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 174--175
+Overfull \hbox (20.0pt too wide) in paragraph at lines 175--176
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 174--175
+Overfull \hbox (10.86pt too wide) in paragraph at lines 175--176
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:177: LaTeX Error: Environment table undefined.
+./chapter-description-of-statistic-data.tex:178: LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \begin{table}
+l.178 \begin{table}
                    [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4100,13 +4116,13 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-description-of-statistic-data.tex:180: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:181: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \caption
+l.181 \caption
               {我国近10年的经济增长率， 数据来源：国家统计局}\label{table:GDP}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4378,20 +4394,20 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:196: LaTeX Error: \begin{document} ended by \end{table}.
+./chapter-description-of-statistic-data.tex:197: LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \end{table}
+l.197 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 177--197
+Overfull \hbox (20.0pt too wide) in paragraph at lines 178--198
 []
  []
 
@@ -4500,18 +4516,18 @@ Missing character: There is no 码 in font nullfont!
 Missing character: There is no 为 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 200--201
+Overfull \hbox (20.0pt too wide) in paragraph at lines 201--202
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:202: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:203: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 \begin{lstlisting}
+l.203 \begin{lstlisting}
                         [Language = Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4563,12 +4579,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 202--204
+Overfull \hbox (20.0pt too wide) in paragraph at lines 203--205
 []
  []
 
-./chapter-description-of-statistic-data.tex:205: You can't use `macro parameter character #' in vertical mode.
-l.205 #
+./chapter-description-of-statistic-data.tex:206: You can't use `macro parameter character #' in vertical mode.
+l.206 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4660,39 +4676,39 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:207: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:208: Missing $ inserted.
 <inserted text> 
                 $
-l.207 plt.rcParams['axes.unicode_
+l.208 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:208: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:209: Missing $ inserted.
 <inserted text> 
                 $
-l.208 
+l.209 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 205--208
+Overfull \hbox (20.0pt too wide) in paragraph at lines 206--209
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 205--208
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 206--209
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 205--208
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 206--209
 \OML/cmm/m/it/10 False$ 
  []
 
-./chapter-description-of-statistic-data.tex:209: You can't use `macro parameter character #' in vertical mode.
-l.209 #
+./chapter-description-of-statistic-data.tex:210: You can't use `macro parameter character #' in vertical mode.
+l.210 #
         输入纵坐标轴数据与横坐标轴数据
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4717,59 +4733,59 @@ Missing character: There is no 据 in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no p in font nullfont!
-./chapter-description-of-statistic-data.tex:210: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:211: Missing $ inserted.
 <inserted text> 
                 $
-l.210 gdp_
+l.211 gdp_
           rate = [9.4, 10.6, 9.6, 7.9, 7.8, 7.3, 6.9, 6.7, 6.8, 6.6]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:215: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:216: Missing $ inserted.
 <inserted text> 
                 $
-l.215 
+l.216 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 209--215
+Overfull \hbox (20.0pt too wide) in paragraph at lines 210--216
 []
  []
 
 
-Overfull \hbox (28.53703pt too wide) in paragraph at lines 209--215
+Overfull \hbox (28.53703pt too wide) in paragraph at lines 210--216
 []\OML/cmm/m/it/10 ate \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (267.62775pt too wide) in paragraph at lines 209--215
+Overfull \hbox (267.62775pt too wide) in paragraph at lines 210--216
 \OT1/cmr/m/n/10 [9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6]\OML/cmm/m/it/10 first[]ndustry[]ate \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (274.84814pt too wide) in paragraph at lines 209--215
+Overfull \hbox (274.84814pt too wide) in paragraph at lines 210--216
 \OT1/cmr/m/n/10 [4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 50\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5]\OML/cmm/m/it/10 second[]ndustry[]ate \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (277.93446pt too wide) in paragraph at lines 209--215
+Overfull \hbox (277.93446pt too wide) in paragraph at lines 210--216
 \OT1/cmr/m/n/10 [10\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 12\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8]\OML/cmm/m/it/10 third[]ndustry[]ate \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (208.56958pt too wide) in paragraph at lines 209--215
+Overfull \hbox (208.56958pt too wide) in paragraph at lines 210--216
 \OT1/cmr/m/n/10 [9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6]\OML/cmm/m/it/10 years \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (245.5559pt too wide) in paragraph at lines 209--215
+Overfull \hbox (245.5559pt too wide) in paragraph at lines 210--216
 \OT1/cmr/m/n/10 [2009\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2010\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2011\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2012\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2013\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2014\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2015\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2016\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2017\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2018]$ 
  []
 
-./chapter-description-of-statistic-data.tex:216: You can't use `macro parameter character #' in vertical mode.
-l.216 #
+./chapter-description-of-statistic-data.tex:217: You can't use `macro parameter character #' in vertical mode.
+l.217 #
         4 个 plot 函数画出 4 条线，线形为折线，每条线对应各自的标签 label
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4829,18 +4845,18 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no p in font nullfont!
-./chapter-description-of-statistic-data.tex:217: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:218: Missing $ inserted.
 <inserted text> 
                 $
-l.217 plt.plot(years, gdp_
+l.218 plt.plot(years, gdp_
                           rate, '.-', label='GDP增长率')
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:221: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:222: Missing $ inserted.
 <inserted text> 
                 $
-l.221 
+l.222 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4870,32 +4886,32 @@ Missing character: There is no 增 in font cmr10!
 Missing character: There is no 长 in font cmr10!
 Missing character: There is no 率 in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 216--221
+Overfull \hbox (20.0pt too wide) in paragraph at lines 217--222
 []
  []
 
 
-Overfull \hbox (76.99307pt too wide) in paragraph at lines 216--221
+Overfull \hbox (76.99307pt too wide) in paragraph at lines 217--222
 []\OML/cmm/m/it/10 ate;[] :\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 ; label \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (232.95807pt too wide) in paragraph at lines 216--221
+Overfull \hbox (232.95807pt too wide) in paragraph at lines 217--222
 \OML/cmm/m/it/10 GDP[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 plt:plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 years; first[]ndustry[]ate;[] :\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 ; label \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (215.95pt too wide) in paragraph at lines 216--221
+Overfull \hbox (215.95pt too wide) in paragraph at lines 217--222
 []\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 plt:plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 years; second[]ndustry[]ate;[] :\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 ; label \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (209.03629pt too wide) in paragraph at lines 216--221
+Overfull \hbox (209.03629pt too wide) in paragraph at lines 217--222
 []\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 plt:plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 years; third[]ndustry[]ate;[] :\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 ; label \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (6.69446pt too wide) in paragraph at lines 216--221
+Overfull \hbox (6.69446pt too wide) in paragraph at lines 217--222
 []\OT1/cmr/m/n/10 )$ 
  []
 
@@ -4916,8 +4932,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:222: You can't use `macro parameter character #' in horizontal mode.
-l.222 plt.xticks(years)  #
+./chapter-description-of-statistic-data.tex:223: You can't use `macro parameter character #' in horizontal mode.
+l.223 plt.xticks(years)  #
                            设置横坐标刻度为给定的年份
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4953,8 +4969,8 @@ Missing character: There is no 年 in font nullfont!
 Missing character: There is no 份 in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:223: You can't use `macro parameter character #' in horizontal mode.
-l.223 plt.xlabel('年份') #
+./chapter-description-of-statistic-data.tex:224: You can't use `macro parameter character #' in horizontal mode.
+l.224 plt.xlabel('年份') #
                          设置横坐标轴标题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -4981,8 +4997,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:224: You can't use `macro parameter character #' in horizontal mode.
-l.224 plt.legend() #
+./chapter-description-of-statistic-data.tex:225: You can't use `macro parameter character #' in horizontal mode.
+l.225 plt.legend() #
                      显示图例，即每条线对应 label 中的内容
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -5019,8 +5035,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:225: You can't use `macro parameter character #' in horizontal mode.
-l.225 plt.show() #
+./chapter-description-of-statistic-data.tex:226: You can't use `macro parameter character #' in horizontal mode.
+l.226 plt.show() #
                    显示图形
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -5032,20 +5048,20 @@ Missing character: There is no 示 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:226: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:227: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 \end{lstlisting}
+l.227 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 222--227
+Overfull \hbox (20.0pt too wide) in paragraph at lines 223--228
 []
  []
 
@@ -5055,10 +5071,10 @@ Missing character: There is no 效 in font nullfont!
 Missing character: There is no 果 in font nullfont!
 Missing character: There is no 如 in font nullfont!
 Missing character: There is no 图 in font nullfont!
-./chapter-description-of-statistic-data.tex:228: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:229: Undefined control sequence.
 <write> ...: Reference `fig:gdp' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.228 显示效果如图 \ref{fig:gdp}
+l.229 显示效果如图 \ref{fig:gdp}
                            所示。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5067,29 +5083,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:gdp' on page  undefined on input line 228.
+LaTeX Warning: Reference `fig:gdp' on page  undefined on input line 229.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 228--229
+Overfull \hbox (20.0pt too wide) in paragraph at lines 229--230
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 228--229
+Overfull \hbox (10.86pt too wide) in paragraph at lines 229--230
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:230: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:231: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \begin{figure}
+l.231 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5100,8 +5116,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:232: Undefined control sequence.
-l.232   \includegraphics
+./chapter-description-of-statistic-data.tex:233: Undefined control sequence.
+l.233   \includegraphics
                         [width=\textwidth]{figure/gdp.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5116,19 +5132,19 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-./chapter-description-of-statistic-data.tex:232: Missing number, treated as zero.
+./chapter-description-of-statistic-data.tex:233: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.232   \includegraphics[width=\textwidth]
+l.233   \includegraphics[width=\textwidth]
                                           {figure/gdp.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./chapter-description-of-statistic-data.tex:232: Illegal unit of measure (pt inserted).
+./chapter-description-of-statistic-data.tex:233: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.232   \includegraphics[width=\textwidth]
+l.233   \includegraphics[width=\textwidth]
                                           {figure/gdp.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -5153,13 +5169,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:233: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:234: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233   \caption
+l.234   \caption
                 {近十年我国的 GDP 以及各产业增长率}\label{fig:gdp}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5182,26 +5198,26 @@ Missing character: There is no 增 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 率 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:234: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:235: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.234 \end{figure}
+l.235 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 230--235
+Overfull \hbox (20.0pt too wide) in paragraph at lines 231--236
 []
  []
 
-./chapter-description-of-statistic-data.tex:236: Undefined control sequence.
-l.236 \section
-              {散点图}
+./chapter-description-of-statistic-data.tex:237: Undefined control sequence.
+l.237 \subsection
+                 {散点图}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5212,7 +5228,7 @@ Missing character: There is no 散 in font nullfont!
 Missing character: There is no 点 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 236--237
+Overfull \hbox (20.0pt too wide) in paragraph at lines 237--238
 [] 
  []
 
@@ -5320,10 +5336,10 @@ Missing character: There is no 本 in font nullfont!
 Missing character: There is no 语 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 为 in font nullfont!
-./chapter-description-of-statistic-data.tex:239: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:240: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.239 ... matplotlib 宏包中，0 到 1 之间的浮点数产生相应的 RGB 颜色}
+l.240 ... matplotlib 宏包中，0 到 1 之间的浮点数产生相应的 RGB 颜色}
                                                   ：
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5331,10 +5347,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapter-description-of-statistic-data.tex:239: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:240: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.239 ... matplotlib 宏包中，0 到 1 之间的浮点数产生相应的 RGB 颜色}
+l.240 ... matplotlib 宏包中，0 到 1 之间的浮点数产生相应的 RGB 颜色}
                                                   ：
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5362,89 +5378,89 @@ Missing character: There is no 的 in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no 颜 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 色 in font [lmroman10-regular]:mapping=tex-text;!
 
-Overfull \hbox (2.8pt too wide) in paragraph at lines 239--239
+Overfull \hbox (2.8pt too wide) in paragraph at lines 240--240
 [][]\TU/lmr/m/n/10 在
  []
 
 
-Overfull \hbox (20.55pt too wide) in paragraph at lines 239--239
+Overfull \hbox (20.55pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 mat-
  []
 
 
-Overfull \hbox (28.35pt too wide) in paragraph at lines 239--239
+Overfull \hbox (28.35pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 plotlib
  []
 
 
-Overfull \hbox (16.2pt too wide) in paragraph at lines 239--239
+Overfull \hbox (16.2pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 宏包中，0
  []
 
 
-Overfull \hbox (2.8pt too wide) in paragraph at lines 239--239
+Overfull \hbox (2.8pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 到
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 239--239
+Overfull \hbox (5.0pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 1
  []
 
 
-Overfull \hbox (30.8pt too wide) in paragraph at lines 239--239
+Overfull \hbox (30.8pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 之间的浮点数产生相应的
  []
 
 
-Overfull \hbox (22.01pt too wide) in paragraph at lines 239--239
+Overfull \hbox (22.01pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 RGB
  []
 
 
-Overfull \hbox (5.6pt too wide) in paragraph at lines 239--239
+Overfull \hbox (5.6pt too wide) in paragraph at lines 240--240
 \TU/lmr/m/n/10 颜色| 
  []
 
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 238--240
+Overfull \hbox (20.0pt too wide) in paragraph at lines 239--241
 []
  []
 
 
-Overfull \hbox (5.71527pt too wide) in paragraph at lines 238--240
+Overfull \hbox (5.71527pt too wide) in paragraph at lines 239--241
 \OML/cmm/m/it/10 x$
  []
 
 
-Overfull \hbox (5.2616pt too wide) in paragraph at lines 238--240
+Overfull \hbox (5.2616pt too wide) in paragraph at lines 239--241
 \OML/cmm/m/it/10 y$
  []
 
 
-Overfull \hbox (29.49887pt too wide) in paragraph at lines 238--240
+Overfull \hbox (29.49887pt too wide) in paragraph at lines 239--241
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (4.483pt too wide) in paragraph at lines 238--240
+Overfull \hbox (4.483pt too wide) in paragraph at lines 239--241
 [] 
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 241--241
+Overfull \hbox (20.0pt too wide) in paragraph at lines 242--242
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:242: LaTeX Error: Environment tcolorbox undefined.
+./chapter-description-of-statistic-data.tex:243: LaTeX Error: Environment tcolorbox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.242 \begin{tcolorbox}
+l.243 \begin{tcolorbox}
                        [title = scatter 函数的语法]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5470,8 +5486,8 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 语 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:244: Undefined control sequence.
-l.244 \tcblower
+./chapter-description-of-statistic-data.tex:245: Undefined control sequence.
+l.245 \tcblower
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5480,69 +5496,69 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (23.54001pt too wide) in paragraph at lines 242--246
+Overfull \hbox (23.54001pt too wide) in paragraph at lines 243--247
  \TU/lmr/bx/n/10 scat- 
  []
 
 
-Overfull \hbox (28.21pt too wide) in paragraph at lines 242--246
+Overfull \hbox (28.21pt too wide) in paragraph at lines 243--247
  \TU/lmr/bx/n/10 ter(x, 
  []
 
 
-Overfull \hbox (8.3pt too wide) in paragraph at lines 242--246
+Overfull \hbox (8.3pt too wide) in paragraph at lines 243--247
  \TU/lmr/bx/n/10 y, 
  []
 
 
-Overfull \hbox (14.11pt too wide) in paragraph at lines 242--246
+Overfull \hbox (14.11pt too wide) in paragraph at lines 243--247
  \TU/lmr/bx/n/10 [s], 
  []
 
 
-Overfull \hbox (14.68001pt too wide) in paragraph at lines 242--246
+Overfull \hbox (14.68001pt too wide) in paragraph at lines 243--247
  \TU/lmr/bx/n/10 [c], 
  []
 
 
-Overfull \hbox (50.65001pt too wide) in paragraph at lines 242--246
+Overfull \hbox (50.65001pt too wide) in paragraph at lines 243--247
  \TU/lmr/bx/n/10 **kwargs) 
  []
 
 
-./chapter-description-of-statistic-data.tex:247: LaTeX Error: Environment tcboutputlisting undefined.
+./chapter-description-of-statistic-data.tex:248: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 \begin{tcboutputlisting}
+l.248 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-description-of-statistic-data.tex:248: LaTeX Error: Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:249: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.248 \begin{tabular}{>{\bfseries}ll}
+l.249 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no c in font nullfont!
 
-./chapter-description-of-statistic-data.tex:248: LaTeX Error:  Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:249: LaTeX Error:  Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.248 \begin{tabular}{>{\bfseries}ll}
+l.249 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5645,20 +5661,20 @@ Missing character: There is no 他 in font nullfont!
 Missing character: There is no 属 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:257: LaTeX Error: \begin{center} on input line 241 ended by \end{tcboutputlisting}.
+./chapter-description-of-statistic-data.tex:258: LaTeX Error: \begin{center} on input line 242 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 \end{tcboutputlisting}
+l.258 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-description-of-statistic-data.tex:258: Undefined control sequence.
-l.258 \tcbuselistingtext
+./chapter-description-of-statistic-data.tex:259: Undefined control sequence.
+l.259 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5667,13 +5683,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapter-description-of-statistic-data.tex:260: LaTeX Error: \begin{center} on input line 241 ended by \end{tcolorbox}.
+./chapter-description-of-statistic-data.tex:261: LaTeX Error: \begin{center} on input line 242 ended by \end{tcolorbox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 \end{tcolorbox}
+l.261 \end{tcolorbox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5741,10 +5757,10 @@ Missing character: There is no 关 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 如 in font nullfont!
 Missing character: There is no 表 in font nullfont!
-./chapter-description-of-statistic-data.tex:263: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:264: Undefined control sequence.
 <write> ...rence `table:scatter' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.263 ...设某个农产品的产量与温度和降雨量的关系如表 \ref{table:scatter}
+l.264 ...设某个农产品的产量与温度和降雨量的关系如表 \ref{table:scatter}
                                                    所示。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5753,29 +5769,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `table:scatter' on page  undefined on input line 263.
+LaTeX Warning: Reference `table:scatter' on page  undefined on input line 264.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 263--264
+Overfull \hbox (20.0pt too wide) in paragraph at lines 264--265
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 263--264
+Overfull \hbox (10.86pt too wide) in paragraph at lines 264--265
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:265: LaTeX Error: Environment table undefined.
+./chapter-description-of-statistic-data.tex:266: LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.265 \begin{table}
+l.266 \begin{table}
                    [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5787,13 +5803,13 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-description-of-statistic-data.tex:268: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:269: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \caption
+l.269 \caption
               {某农产品的产量与温度和降雨量的关系}\label{table:scatter}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5879,20 +5895,20 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:281: LaTeX Error: \begin{document} ended by \end{table}.
+./chapter-description-of-statistic-data.tex:282: LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 \end{table}
+l.282 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 265--282
+Overfull \hbox (20.0pt too wide) in paragraph at lines 266--283
 []
  []
 
@@ -5923,13 +5939,13 @@ Missing character: There is no 如 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-./chapter-description-of-statistic-data.tex:284: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:285: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 \begin{lstlisting}
+l.285 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5996,12 +6012,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 283--287
+Overfull \hbox (20.0pt too wide) in paragraph at lines 284--288
 []
  []
 
-./chapter-description-of-statistic-data.tex:288: You can't use `macro parameter character #' in vertical mode.
-l.288 #
+./chapter-description-of-statistic-data.tex:289: You can't use `macro parameter character #' in vertical mode.
+l.289 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6093,39 +6109,39 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:290: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:291: Missing $ inserted.
 <inserted text> 
                 $
-l.290 plt.rcParams['axes.unicode_
+l.291 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:291: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:292: Missing $ inserted.
 <inserted text> 
                 $
-l.291 
+l.292 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 288--291
+Overfull \hbox (20.0pt too wide) in paragraph at lines 289--292
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 288--291
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 289--292
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 288--291
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 289--292
 \OML/cmm/m/it/10 False$ 
  []
 
-./chapter-description-of-statistic-data.tex:292: You can't use `macro parameter character #' in vertical mode.
-l.292 #
+./chapter-description-of-statistic-data.tex:293: You can't use `macro parameter character #' in vertical mode.
+l.293 #
         输入产量与温度数据
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6213,7 +6229,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 292--295
+Overfull \hbox (20.0pt too wide) in paragraph at lines 293--296
 []
  []
 
@@ -6248,8 +6264,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:296: You can't use `macro parameter character #' in horizontal mode.
-l.296 colors = np.random.rand(len(tem))  #
+./chapter-description-of-statistic-data.tex:297: You can't use `macro parameter character #' in horizontal mode.
+l.297 colors = np.random.rand(len(tem))  #
                                            颜色数组
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6302,8 +6318,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:297: You can't use `macro parameter character #' in horizontal mode.
-l.297 ...tter(tem, production, s=200, c=colors)  #
+./chapter-description-of-statistic-data.tex:298: You can't use `macro parameter character #' in horizontal mode.
+l.298 ...tter(tem, production, s=200, c=colors)  #
                                                    画散点图，大小为 200
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6337,8 +6353,8 @@ Missing character: There is no 温 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:298: You can't use `macro parameter character #' in horizontal mode.
-l.298 plt.xlabel('温度')  #
+./chapter-description-of-statistic-data.tex:299: You can't use `macro parameter character #' in horizontal mode.
+l.299 plt.xlabel('温度')  #
                           横坐标轴标题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6367,8 +6383,8 @@ Missing character: There is no 产 in font nullfont!
 Missing character: There is no 量 in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:299: You can't use `macro parameter character #' in horizontal mode.
-l.299 plt.ylabel('产量')  #
+./chapter-description-of-statistic-data.tex:300: You can't use `macro parameter character #' in horizontal mode.
+l.300 plt.ylabel('产量')  #
                           纵坐标轴标题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6392,31 +6408,31 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:301: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:302: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.301 \end{lstlisting}
+l.302 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 296--302
+Overfull \hbox (20.0pt too wide) in paragraph at lines 297--303
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:303: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:304: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 \begin{figure}
+l.304 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6427,8 +6443,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:305: Undefined control sequence.
-l.305   \includegraphics
+./chapter-description-of-statistic-data.tex:306: Undefined control sequence.
+l.306   \includegraphics
                         {figure/scatter1.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6456,13 +6472,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:306: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:307: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306   \caption
+l.307   \caption
                 {产量与温度的散点图}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6477,20 +6493,20 @@ Missing character: There is no 散 in font nullfont!
 Missing character: There is no 点 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:307: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:308: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.307 \end{figure}
+l.308 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 303--308
+Overfull \hbox (20.0pt too wide) in paragraph at lines 304--309
 []
  []
 
@@ -6550,10 +6566,10 @@ Missing character: There is no 泡 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no 图 in font nullfont!
-./chapter-description-of-statistic-data.tex:309: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:310: Undefined control sequence.
 <write> ...erence `fig:scatter2' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.309 ...气泡图。下面的代码和图形做出了一个气泡图。图 \ref{fig:scatter2}
+l.310 ...气泡图。下面的代码和图形做出了一个气泡图。图 \ref{fig:scatter2}
                                                    反映了产量与温度、降雨量的关系：温度数值在横坐标轴...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6562,7 +6578,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:scatter2' on page  undefined on input line 309.
+LaTeX Warning: Reference `fig:scatter2' on page  undefined on input line 310.
 
 Missing character: There is no 反 in font nullfont!
 Missing character: There is no 映 in font nullfont!
@@ -6617,23 +6633,23 @@ Missing character: There is no 表 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 309--310
+Overfull \hbox (20.0pt too wide) in paragraph at lines 310--311
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 309--310
+Overfull \hbox (10.86pt too wide) in paragraph at lines 310--311
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:311: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:312: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.311 \begin{lstlisting}
+l.312 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6700,12 +6716,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 311--314
+Overfull \hbox (20.0pt too wide) in paragraph at lines 312--315
 []
  []
 
-./chapter-description-of-statistic-data.tex:315: You can't use `macro parameter character #' in vertical mode.
-l.315 #
+./chapter-description-of-statistic-data.tex:316: You can't use `macro parameter character #' in vertical mode.
+l.316 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6797,39 +6813,39 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:317: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:318: Missing $ inserted.
 <inserted text> 
                 $
-l.317 plt.rcParams['axes.unicode_
+l.318 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:318: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:319: Missing $ inserted.
 <inserted text> 
                 $
-l.318 
+l.319 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 315--318
+Overfull \hbox (20.0pt too wide) in paragraph at lines 316--319
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 315--318
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 316--319
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 315--318
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 316--319
 \OML/cmm/m/it/10 False$ 
  []
 
-./chapter-description-of-statistic-data.tex:319: You can't use `macro parameter character #' in vertical mode.
-l.319 #
+./chapter-description-of-statistic-data.tex:320: You can't use `macro parameter character #' in vertical mode.
+l.320 #
         输入产量与温度数据
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6946,7 +6962,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 319--323
+Overfull \hbox (20.0pt too wide) in paragraph at lines 320--324
 []
  []
 
@@ -6981,8 +6997,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:324: You can't use `macro parameter character #' in horizontal mode.
-l.324 colors = np.random.rand(len(tem))  #
+./chapter-description-of-statistic-data.tex:325: You can't use `macro parameter character #' in horizontal mode.
+l.325 colors = np.random.rand(len(tem))  #
                                            颜色数组
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7055,8 +7071,8 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:326: You can't use `macro parameter character #' in horizontal mode.
-l.326 ...em, rain, s=size, c=colors, alpha=0.6)  #
+./chapter-description-of-statistic-data.tex:327: You can't use `macro parameter character #' in horizontal mode.
+l.327 ...em, rain, s=size, c=colors, alpha=0.6)  #
                                                    画散点图, alpha=0.6 表示不透明度为 0.6
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7104,8 +7120,8 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:327: You can't use `macro parameter character #' in horizontal mode.
-l.327 plt.ylim([0, 150])  #
+./chapter-description-of-statistic-data.tex:328: You can't use `macro parameter character #' in horizontal mode.
+l.328 plt.ylim([0, 150])  #
                             纵坐标轴范围
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7134,8 +7150,8 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:328: You can't use `macro parameter character #' in horizontal mode.
-l.328 plt.xlim([0, 30])   #
+./chapter-description-of-statistic-data.tex:329: You can't use `macro parameter character #' in horizontal mode.
+l.329 plt.xlim([0, 30])   #
                             横坐标轴范围
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7164,8 +7180,8 @@ Missing character: There is no 温 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:329: You can't use `macro parameter character #' in horizontal mode.
-l.329 plt.xlabel('温度')  #
+./chapter-description-of-statistic-data.tex:330: You can't use `macro parameter character #' in horizontal mode.
+l.330 plt.xlabel('温度')  #
                           横坐标轴标题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7195,8 +7211,8 @@ Missing character: There is no 雨 in font nullfont!
 Missing character: There is no 量 in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:330: You can't use `macro parameter character #' in horizontal mode.
-l.330 plt.ylabel('降雨量')  #
+./chapter-description-of-statistic-data.tex:331: You can't use `macro parameter character #' in horizontal mode.
+l.331 plt.ylabel('降雨量')  #
                            纵坐标轴标题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7220,31 +7236,31 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:332: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:333: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 \end{lstlisting}
+l.333 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 324--333
+Overfull \hbox (20.0pt too wide) in paragraph at lines 325--334
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:334: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:335: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.334 \begin{figure}
+l.335 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7255,8 +7271,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:336: Undefined control sequence.
-l.336   \includegraphics
+./chapter-description-of-statistic-data.tex:337: Undefined control sequence.
+l.337   \includegraphics
                         {figure/scatter2.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7284,13 +7300,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:337: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:338: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.337   \caption
+l.338   \caption
                 {产量与温度、降雨量关系的气泡图}\label{fig:scatter2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7311,32 +7327,32 @@ Missing character: There is no 气 in font nullfont!
 Missing character: There is no 泡 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:338: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:339: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 \end{figure}
+l.339 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 334--339
+Overfull \hbox (20.0pt too wide) in paragraph at lines 335--340
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:340: LaTeX Error: The font size command \normalsize is not defined:
+./chapter-description-of-statistic-data.tex:341: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.340 \clearpage
+l.341 \clearpage
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7345,10 +7361,10 @@ or  <return>  to continue without it.
 [2
 
 
-./chapter-description-of-statistic-data.tex:340: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:341: Undefined control sequence.
 <write> \newlabel{fig:sinx2}{{}{\thepage 
                                          }}
-l.340 \clearpage
+l.341 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7357,10 +7373,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{fig:sinx2}{{}{}}
-./chapter-description-of-statistic-data.tex:340: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:341: Undefined control sequence.
 <write> \newlabel{table:GDP}{{}{\thepage 
                                          }}
-l.340 \clearpage
+l.341 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7369,10 +7385,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{table:GDP}{{}{}}
-./chapter-description-of-statistic-data.tex:340: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:341: Undefined control sequence.
 <write> \newlabel{fig:gdp}{{}{\thepage 
                                        }}
-l.340 \clearpage
+l.341 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7381,10 +7397,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{fig:gdp}{{}{}}
-./chapter-description-of-statistic-data.tex:340: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:341: Undefined control sequence.
 <write> \newlabel{table:scatter}{{}{\thepage 
                                              }}
-l.340 \clearpage
+l.341 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7393,10 +7409,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{table:scatter}{{}{}}
-./chapter-description-of-statistic-data.tex:340: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:341: Undefined control sequence.
 <write> \newlabel{fig:scatter2}{{}{\thepage 
                                             }}
-l.340 \clearpage
+l.341 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7406,9 +7422,9 @@ and I'll forget about whatever was undefined.
 
 \newlabel{fig:scatter2}{{}{}}
 ]
-./chapter-description-of-statistic-data.tex:342: Undefined control sequence.
-l.342 \section
-              {条形图}
+./chapter-description-of-statistic-data.tex:343: Undefined control sequence.
+l.343 \subsection
+                 {条形图}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7419,7 +7435,7 @@ Missing character: There is no 条 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 342--343
+Overfull \hbox (20.0pt too wide) in paragraph at lines 343--344
 [] 
  []
 
@@ -7517,23 +7533,23 @@ Missing character: There is no 法 in font nullfont!
 Missing character: There is no 为 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 344--345
+Overfull \hbox (20.0pt too wide) in paragraph at lines 345--346
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 346--346
+Overfull \hbox (20.0pt too wide) in paragraph at lines 347--347
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:347: LaTeX Error: Environment tcolorbox undefined.
+./chapter-description-of-statistic-data.tex:348: LaTeX Error: Environment tcolorbox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.347 \begin{tcolorbox}
+l.348 \begin{tcolorbox}
                        [title = bar 函数的语法]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7555,8 +7571,8 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 语 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:349: Undefined control sequence.
-l.349 \tcblower
+./chapter-description-of-statistic-data.tex:350: Undefined control sequence.
+l.350 \tcblower
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7565,59 +7581,59 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (30.45pt too wide) in paragraph at lines 347--351
+Overfull \hbox (30.45pt too wide) in paragraph at lines 348--352
  \TU/lmr/bx/n/10 bar(x, 
  []
 
 
-Overfull \hbox (34.33pt too wide) in paragraph at lines 347--351
+Overfull \hbox (34.33pt too wide) in paragraph at lines 348--352
  \TU/lmr/bx/n/10 height, 
  []
 
 
-Overfull \hbox (38.32pt too wide) in paragraph at lines 347--351
+Overfull \hbox (38.32pt too wide) in paragraph at lines 348--352
  \TU/lmr/bx/n/10 [width], 
  []
 
 
-Overfull \hbox (50.65001pt too wide) in paragraph at lines 347--351
+Overfull \hbox (50.65001pt too wide) in paragraph at lines 348--352
  \TU/lmr/bx/n/10 **kwargs) 
  []
 
 
-./chapter-description-of-statistic-data.tex:352: LaTeX Error: Environment tcboutputlisting undefined.
+./chapter-description-of-statistic-data.tex:353: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.352 \begin{tcboutputlisting}
+l.353 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-description-of-statistic-data.tex:353: LaTeX Error: Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:354: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.353 \begin{tabular}{>{\bfseries}ll}
+l.354 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no c in font nullfont!
 
-./chapter-description-of-statistic-data.tex:353: LaTeX Error:  Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:354: LaTeX Error:  Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.353 \begin{tabular}{>{\bfseries}ll}
+l.354 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7721,20 +7737,20 @@ Missing character: There is no 他 in font nullfont!
 Missing character: There is no 属 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:361: LaTeX Error: \begin{center} on input line 346 ended by \end{tcboutputlisting}.
+./chapter-description-of-statistic-data.tex:362: LaTeX Error: \begin{center} on input line 347 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.361 \end{tcboutputlisting}
+l.362 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-description-of-statistic-data.tex:362: Undefined control sequence.
-l.362 \tcbuselistingtext
+./chapter-description-of-statistic-data.tex:363: Undefined control sequence.
+l.363 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7743,13 +7759,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapter-description-of-statistic-data.tex:363: LaTeX Error: \begin{center} on input line 346 ended by \end{tcolorbox}.
+./chapter-description-of-statistic-data.tex:364: LaTeX Error: \begin{center} on input line 347 ended by \end{tcolorbox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.363 \end{tcolorbox}
+l.364 \end{tcolorbox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7831,18 +7847,18 @@ Missing character: There is no 下 in font nullfont!
 Missing character: There is no 表 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 366--367
+Overfull \hbox (20.0pt too wide) in paragraph at lines 367--368
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:368: LaTeX Error: Environment table undefined.
+./chapter-description-of-statistic-data.tex:369: LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.368 \begin{table}
+l.369 \begin{table}
                    [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7854,13 +7870,13 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-description-of-statistic-data.tex:370: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:371: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.370 \caption
+l.371 \caption
               {男女大学生购买饮用水爱好调查表}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7916,20 +7932,20 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:382: LaTeX Error: \begin{document} ended by \end{table}.
+./chapter-description-of-statistic-data.tex:383: LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.382 \end{table}
+l.383 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 368--383
+Overfull \hbox (20.0pt too wide) in paragraph at lines 369--384
 []
  []
 
@@ -7953,18 +7969,18 @@ Missing character: There is no 如 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 384--385
+Overfull \hbox (20.0pt too wide) in paragraph at lines 385--386
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:386: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:387: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.386 \begin{lstlisting}
+l.387 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8016,12 +8032,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 386--388
+Overfull \hbox (20.0pt too wide) in paragraph at lines 387--389
 []
  []
 
-./chapter-description-of-statistic-data.tex:389: You can't use `macro parameter character #' in vertical mode.
-l.389 #
+./chapter-description-of-statistic-data.tex:390: You can't use `macro parameter character #' in vertical mode.
+l.390 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -8113,34 +8129,34 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:391: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:392: Missing $ inserted.
 <inserted text> 
                 $
-l.391 plt.rcParams['axes.unicode_
+l.392 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:392: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:393: Missing $ inserted.
 <inserted text> 
                 $
-l.392 
+l.393 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 389--392
+Overfull \hbox (20.0pt too wide) in paragraph at lines 390--393
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 389--392
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 390--393
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 389--392
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 390--393
 \OML/cmm/m/it/10 False$ 
  []
 
@@ -8183,34 +8199,34 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-description-of-statistic-data.tex:394: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:395: Missing $ inserted.
 <inserted text> 
                 $
-l.394 buy_
+l.395 buy_
           number = [6, 7, 6, 1, 2]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:395: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:396: Missing $ inserted.
 <inserted text> 
                 $
-l.395 
+l.396 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 393--395
+Overfull \hbox (20.0pt too wide) in paragraph at lines 394--396
 []
  []
 
 
-Overfull \hbox (44.24084pt too wide) in paragraph at lines 393--395
+Overfull \hbox (44.24084pt too wide) in paragraph at lines 394--396
 []\OML/cmm/m/it/10 umber \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (48.3333pt too wide) in paragraph at lines 393--395
+Overfull \hbox (48.3333pt too wide) in paragraph at lines 394--396
 \OT1/cmr/m/n/10 [6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2]$ 
  []
 
@@ -8232,18 +8248,18 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-description-of-statistic-data.tex:396: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:397: Missing $ inserted.
 <inserted text> 
                 $
-l.396 plt.bar(waters, buy_
+l.397 plt.bar(waters, buy_
                           number)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:398: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:399: Missing $ inserted.
 <inserted text> 
                 $
-l.398 
+l.399 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -8263,12 +8279,12 @@ Missing character: There is no 查 in font cmr10!
 Missing character: There is no 结 in font cmr10!
 Missing character: There is no 果 in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 396--398
+Overfull \hbox (20.0pt too wide) in paragraph at lines 397--399
 []
  []
 
 
-Overfull \hbox (84.06807pt too wide) in paragraph at lines 396--398
+Overfull \hbox (84.06807pt too wide) in paragraph at lines 397--399
 []\OML/cmm/m/it/10 umber\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 plt:title\OT1/cmr/m/n/10 ([][])$ 
  []
 
@@ -8283,20 +8299,20 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:400: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:401: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{lstlisting}
+l.401 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 399--401
+Overfull \hbox (20.0pt too wide) in paragraph at lines 400--402
 []
  []
 
@@ -8307,13 +8323,13 @@ Missing character: There is no 图 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-./chapter-description-of-statistic-data.tex:403: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:404: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.403 \begin{figure}
+l.404 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8324,8 +8340,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:405: Undefined control sequence.
-l.405   \includegraphics
+./chapter-description-of-statistic-data.tex:406: Undefined control sequence.
+l.406   \includegraphics
                         [scale=0.8]{figure/bar1.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8360,13 +8376,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:406: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:407: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.406   \caption
+l.407   \caption
                 {男性购买饮用水条形图}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8382,20 +8398,20 @@ Missing character: There is no 条 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:407: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:408: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.407 \end{figure}
+l.408 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 402--408
+Overfull \hbox (20.0pt too wide) in paragraph at lines 403--409
 []
  []
 
@@ -8436,23 +8452,23 @@ Missing character: There is no 类 in font nullfont!
 Missing character: There is no 似 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 410--411
+Overfull \hbox (20.0pt too wide) in paragraph at lines 411--412
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 412--412
+Overfull \hbox (20.0pt too wide) in paragraph at lines 413--413
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:413: LaTeX Error: Environment tcolorbox undefined.
+./chapter-description-of-statistic-data.tex:414: LaTeX Error: Environment tcolorbox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 \begin{tcolorbox}
+l.414 \begin{tcolorbox}
                        [title = barh 函数的语法]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8475,8 +8491,8 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 语 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:415: Undefined control sequence.
-l.415 \tcblower
+./chapter-description-of-statistic-data.tex:416: Undefined control sequence.
+l.416 \tcblower
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8485,59 +8501,59 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (30.45pt too wide) in paragraph at lines 413--417
+Overfull \hbox (30.45pt too wide) in paragraph at lines 414--418
  \TU/lmr/bx/n/10 bar(x, 
  []
 
 
-Overfull \hbox (31.94pt too wide) in paragraph at lines 413--417
+Overfull \hbox (31.94pt too wide) in paragraph at lines 414--418
  \TU/lmr/bx/n/10 width, 
  []
 
 
-Overfull \hbox (40.71pt too wide) in paragraph at lines 413--417
+Overfull \hbox (40.71pt too wide) in paragraph at lines 414--418
  \TU/lmr/bx/n/10 [height], 
  []
 
 
-Overfull \hbox (50.65001pt too wide) in paragraph at lines 413--417
+Overfull \hbox (50.65001pt too wide) in paragraph at lines 414--418
  \TU/lmr/bx/n/10 **kwargs) 
  []
 
 
-./chapter-description-of-statistic-data.tex:418: LaTeX Error: Environment tcboutputlisting undefined.
+./chapter-description-of-statistic-data.tex:419: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.418 \begin{tcboutputlisting}
+l.419 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-description-of-statistic-data.tex:419: LaTeX Error: Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:420: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.419 \begin{tabular}{>{\bfseries}ll}
+l.420 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no c in font nullfont!
 
-./chapter-description-of-statistic-data.tex:419: LaTeX Error:  Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:420: LaTeX Error:  Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.419 \begin{tabular}{>{\bfseries}ll}
+l.420 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8641,20 +8657,20 @@ Missing character: There is no 他 in font nullfont!
 Missing character: There is no 属 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:427: LaTeX Error: \begin{center} on input line 412 ended by \end{tcboutputlisting}.
+./chapter-description-of-statistic-data.tex:428: LaTeX Error: \begin{center} on input line 413 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.427 \end{tcboutputlisting}
+l.428 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-description-of-statistic-data.tex:428: Undefined control sequence.
-l.428 \tcbuselistingtext
+./chapter-description-of-statistic-data.tex:429: Undefined control sequence.
+l.429 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8663,13 +8679,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapter-description-of-statistic-data.tex:429: LaTeX Error: \begin{center} on input line 412 ended by \end{tcolorbox}.
+./chapter-description-of-statistic-data.tex:430: LaTeX Error: \begin{center} on input line 413 ended by \end{tcolorbox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.429 \end{tcolorbox}
+l.430 \end{tcolorbox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8686,18 +8702,18 @@ Missing character: There is no 形 in font nullfont!
 Missing character: There is no 为 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 432--433
+Overfull \hbox (20.0pt too wide) in paragraph at lines 433--434
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:434: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:435: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.434 \begin{lstlisting}
+l.435 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8749,12 +8765,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 434--436
+Overfull \hbox (20.0pt too wide) in paragraph at lines 435--437
 []
  []
 
-./chapter-description-of-statistic-data.tex:437: You can't use `macro parameter character #' in vertical mode.
-l.437 #
+./chapter-description-of-statistic-data.tex:438: You can't use `macro parameter character #' in vertical mode.
+l.438 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -8846,34 +8862,34 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:439: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:440: Missing $ inserted.
 <inserted text> 
                 $
-l.439 plt.rcParams['axes.unicode_
+l.440 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:440: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:441: Missing $ inserted.
 <inserted text> 
                 $
-l.440 
+l.441 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 437--440
+Overfull \hbox (20.0pt too wide) in paragraph at lines 438--441
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 437--440
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 438--441
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 437--440
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 438--441
 \OML/cmm/m/it/10 False$ 
  []
 
@@ -8916,34 +8932,34 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-description-of-statistic-data.tex:442: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:443: Missing $ inserted.
 <inserted text> 
                 $
-l.442 buy_
+l.443 buy_
           number = [6, 7, 6, 1, 2]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:443: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:444: Missing $ inserted.
 <inserted text> 
                 $
-l.443 
+l.444 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 441--443
+Overfull \hbox (20.0pt too wide) in paragraph at lines 442--444
 []
  []
 
 
-Overfull \hbox (44.24084pt too wide) in paragraph at lines 441--443
+Overfull \hbox (44.24084pt too wide) in paragraph at lines 442--444
 []\OML/cmm/m/it/10 umber \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (48.3333pt too wide) in paragraph at lines 441--443
+Overfull \hbox (48.3333pt too wide) in paragraph at lines 442--444
 \OT1/cmr/m/n/10 [6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2]$ 
  []
 
@@ -8966,26 +8982,26 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-description-of-statistic-data.tex:444: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:445: Missing $ inserted.
 <inserted text> 
                 $
-l.444 plt.barh(waters, buy_
+l.445 plt.barh(waters, buy_
                            number)  # 横放条形图函数 barh
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:444: You can't use `macro parameter character #' in math mode.
-l.444 plt.barh(waters, buy_number)  #
+./chapter-description-of-statistic-data.tex:445: You can't use `macro parameter character #' in math mode.
+l.445 plt.barh(waters, buy_number)  #
                                       横放条形图函数 barh
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./chapter-description-of-statistic-data.tex:446: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:447: Missing $ inserted.
 <inserted text> 
                 $
-l.446 
+l.447 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -9012,12 +9028,12 @@ Missing character: There is no 查 in font cmr10!
 Missing character: There is no 结 in font cmr10!
 Missing character: There is no 果 in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 444--446
+Overfull \hbox (20.0pt too wide) in paragraph at lines 445--447
 []
  []
 
 
-Overfull \hbox (104.19656pt too wide) in paragraph at lines 444--446
+Overfull \hbox (104.19656pt too wide) in paragraph at lines 445--447
 []\OML/cmm/m/it/10 umber\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 barhplt:title\OT1/cmr/m/n/10 ([][])$ 
  []
 
@@ -9032,31 +9048,31 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:448: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:449: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.448 \end{lstlisting}
+l.449 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 447--449
+Overfull \hbox (20.0pt too wide) in paragraph at lines 448--450
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:450: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:451: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.450 \begin{figure}
+l.451 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9067,8 +9083,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:452: Undefined control sequence.
-l.452   \includegraphics
+./chapter-description-of-statistic-data.tex:453: Undefined control sequence.
+l.453   \includegraphics
                         [scale=0.8]{figure/bar2.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9103,13 +9119,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:453: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:454: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.453   \caption
+l.454   \caption
                 {男性购买饮用水条形图（条形横放）}\label{fig:bar2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9131,20 +9147,20 @@ Missing character: There is no 横 in font nullfont!
 Missing character: There is no 放 in font nullfont!
 Missing character: There is no ） in font nullfont!
 
-./chapter-description-of-statistic-data.tex:454: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:455: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.454 \end{figure}
+l.455 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 450--455
+Overfull \hbox (20.0pt too wide) in paragraph at lines 451--456
 []
  []
 
@@ -9234,18 +9250,18 @@ Missing character: There is no 显 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 458--459
+Overfull \hbox (20.0pt too wide) in paragraph at lines 459--460
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:460: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:461: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.460 \begin{lstlisting}
+l.461 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9312,12 +9328,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 460--463
+Overfull \hbox (20.0pt too wide) in paragraph at lines 461--464
 []
  []
 
-./chapter-description-of-statistic-data.tex:464: You can't use `macro parameter character #' in vertical mode.
-l.464 #
+./chapter-description-of-statistic-data.tex:465: You can't use `macro parameter character #' in vertical mode.
+l.465 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9409,39 +9425,39 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:466: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:467: Missing $ inserted.
 <inserted text> 
                 $
-l.466 plt.rcParams['axes.unicode_
+l.467 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:467: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:468: Missing $ inserted.
 <inserted text> 
                 $
-l.467 
+l.468 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 464--467
+Overfull \hbox (20.0pt too wide) in paragraph at lines 465--468
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 464--467
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 465--468
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 464--467
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 465--468
 \OML/cmm/m/it/10 False$ 
  []
 
-./chapter-description-of-statistic-data.tex:468: You can't use `macro parameter character #' in vertical mode.
-l.468 #
+./chapter-description-of-statistic-data.tex:469: You can't use `macro parameter character #' in vertical mode.
+l.469 #
         输入统计数据
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9493,81 +9509,81 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-description-of-statistic-data.tex:470: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:471: Missing $ inserted.
 <inserted text> 
                 $
-l.470 buy_
+l.471 buy_
           number_male = [6, 7, 6, 1, 2]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:472: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:473: Missing $ inserted.
 <inserted text> 
                 $
-l.472 
+l.473 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 468--472
+Overfull \hbox (20.0pt too wide) in paragraph at lines 469--473
 []
  []
 
 
-Overfull \hbox (64.6819pt too wide) in paragraph at lines 468--472
+Overfull \hbox (64.6819pt too wide) in paragraph at lines 469--473
 []\OML/cmm/m/it/10 umber[]ale \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (138.95862pt too wide) in paragraph at lines 468--472
+Overfull \hbox (138.95862pt too wide) in paragraph at lines 469--473
 \OT1/cmr/m/n/10 [6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2]\OML/cmm/m/it/10 buy[]umber[]emale \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (48.3333pt too wide) in paragraph at lines 468--472
+Overfull \hbox (48.3333pt too wide) in paragraph at lines 469--473
 \OT1/cmr/m/n/10 [9\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6]$ 
  []
 
 Missing character: There is no b in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
-./chapter-description-of-statistic-data.tex:473: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:474: Missing $ inserted.
 <inserted text> 
                 $
-l.473 bar_
+l.474 bar_
           width = 0.3  # 条形宽度
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:473: You can't use `macro parameter character #' in math mode.
-l.473 bar_width = 0.3  #
+./chapter-description-of-statistic-data.tex:474: You can't use `macro parameter character #' in math mode.
+l.474 bar_width = 0.3  #
                          条形宽度
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./chapter-description-of-statistic-data.tex:474: You can't use `macro parameter character #' in math mode.
-l.474 index_male = np.arange(len(waters))  #
+./chapter-description-of-statistic-data.tex:475: You can't use `macro parameter character #' in math mode.
+l.475 index_male = np.arange(len(waters))  #
                                              男生条形图的横坐标
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./chapter-description-of-statistic-data.tex:475: You can't use `macro parameter character #' in math mode.
-l.475 index_female = index_male + bar_width  #
+./chapter-description-of-statistic-data.tex:476: You can't use `macro parameter character #' in math mode.
+l.476 index_female = index_male + bar_width  #
                                                女生条形图的横坐标
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./chapter-description-of-statistic-data.tex:476: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:477: Missing $ inserted.
 <inserted text> 
                 $
-l.476 
+l.477 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -9595,32 +9611,32 @@ Missing character: There is no 横 in font cmr10!
 Missing character: There is no 坐 in font cmr10!
 Missing character: There is no 标 in font cmr10!
 
-Overfull \hbox (55.0516pt too wide) in paragraph at lines 473--476
+Overfull \hbox (55.0516pt too wide) in paragraph at lines 474--477
 []$[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (69.07605pt too wide) in paragraph at lines 473--476
+Overfull \hbox (69.07605pt too wide) in paragraph at lines 474--477
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 index[]ale \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (172.13539pt too wide) in paragraph at lines 473--476
+Overfull \hbox (172.13539pt too wide) in paragraph at lines 474--477
 \OML/cmm/m/it/10 np:arange\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 len\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 waters\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 index[]emale \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (53.52052pt too wide) in paragraph at lines 473--476
+Overfull \hbox (53.52052pt too wide) in paragraph at lines 474--477
 \OML/cmm/m/it/10 index[]ale \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (38.58522pt too wide) in paragraph at lines 473--476
+Overfull \hbox (38.58522pt too wide) in paragraph at lines 474--477
 \OML/cmm/m/it/10 bar[]idth$ 
  []
 
-./chapter-description-of-statistic-data.tex:477: You can't use `macro parameter character #' in vertical mode.
-l.477 #
+./chapter-description-of-statistic-data.tex:478: You can't use `macro parameter character #' in vertical mode.
+l.478 #
         使用两次 bar 函数画出两组条形图
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9656,18 +9672,18 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
-./chapter-description-of-statistic-data.tex:478: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:479: Missing $ inserted.
 <inserted text> 
                 $
-l.478 plt.bar(index_
+l.479 plt.bar(index_
                     male, height=buy_number_male, width=bar_width, color='b'...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:480: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:481: Missing $ inserted.
 <inserted text> 
                 $
-l.480 
+l.481 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -9677,52 +9693,52 @@ Missing character: There is no 性 in font cmr10!
 Missing character: There is no 女 in font cmr10!
 Missing character: There is no 性 in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 477--480
+Overfull \hbox (20.0pt too wide) in paragraph at lines 478--481
 []
  []
 
 
-Overfull \hbox (64.0829pt too wide) in paragraph at lines 477--480
+Overfull \hbox (64.0829pt too wide) in paragraph at lines 478--481
 []\OML/cmm/m/it/10 ale; height \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (109.4963pt too wide) in paragraph at lines 477--480
+Overfull \hbox (109.4963pt too wide) in paragraph at lines 478--481
 \OML/cmm/m/it/10 buy[]umber[]ale; width \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (78.38266pt too wide) in paragraph at lines 477--480
+Overfull \hbox (78.38266pt too wide) in paragraph at lines 478--481
 \OML/cmm/m/it/10 bar[]idth; color \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (45.49765pt too wide) in paragraph at lines 477--480
+Overfull \hbox (45.49765pt too wide) in paragraph at lines 478--481
 \OML/cmm/m/it/10 b[]; label \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (139.68214pt too wide) in paragraph at lines 477--480
+Overfull \hbox (139.68214pt too wide) in paragraph at lines 478--481
 []\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 plt:bar\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 index[]emale; height \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (120.52068pt too wide) in paragraph at lines 477--480
+Overfull \hbox (120.52068pt too wide) in paragraph at lines 478--481
 \OML/cmm/m/it/10 buy[]umber[]emale; width \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (78.38266pt too wide) in paragraph at lines 477--480
+Overfull \hbox (78.38266pt too wide) in paragraph at lines 478--481
 \OML/cmm/m/it/10 bar[]idth; color \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (46.33446pt too wide) in paragraph at lines 477--480
+Overfull \hbox (46.33446pt too wide) in paragraph at lines 478--481
 \OML/cmm/m/it/10 g[]; label \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (6.69446pt too wide) in paragraph at lines 477--480
+Overfull \hbox (6.69446pt too wide) in paragraph at lines 478--481
 []\OT1/cmr/m/n/10 )$ 
  []
 
@@ -9738,8 +9754,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:481: You can't use `macro parameter character #' in horizontal mode.
-l.481 plt.legend()  #
+./chapter-description-of-statistic-data.tex:482: You can't use `macro parameter character #' in horizontal mode.
+l.482 plt.legend()  #
                       显示图例
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9766,42 +9782,42 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
-./chapter-description-of-statistic-data.tex:482: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:483: Missing $ inserted.
 <inserted text> 
                 $
-l.482 plt.xticks(index_
+l.483 plt.xticks(index_
                        male + bar_width/2, waters)  # 让横坐标轴刻度显示 waters 里的饮用水...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:482: You can't use `macro parameter character #' in math mode.
-l.482 ...icks(index_male + bar_width/2, waters)  #
+./chapter-description-of-statistic-data.tex:483: You can't use `macro parameter character #' in math mode.
+l.483 ...icks(index_male + bar_width/2, waters)  #
                                                    让横坐标轴刻度显示 waters 里的饮用水， i...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./chapter-description-of-statistic-data.tex:483: You can't use `macro parameter character #' in math mode.
-l.483 plt.ylabel('购买量')  #
+./chapter-description-of-statistic-data.tex:484: You can't use `macro parameter character #' in math mode.
+l.484 plt.ylabel('购买量')  #
                            纵坐标轴标题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./chapter-description-of-statistic-data.tex:484: You can't use `macro parameter character #' in math mode.
-l.484 plt.title('购买饮用水情况的调查结果')  #
+./chapter-description-of-statistic-data.tex:485: You can't use `macro parameter character #' in math mode.
+l.485 plt.title('购买饮用水情况的调查结果')  #
                                    图形标题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./chapter-description-of-statistic-data.tex:485: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:486: Missing $ inserted.
 <inserted text> 
                 $
-l.485 
+l.486 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -9857,22 +9873,22 @@ Missing character: There is no 形 in font cmr10!
 Missing character: There is no 标 in font cmr10!
 Missing character: There is no 题 in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 481--485
+Overfull \hbox (20.0pt too wide) in paragraph at lines 482--486
 []
  []
 
 
-Overfull \hbox (28.49664pt too wide) in paragraph at lines 481--485
+Overfull \hbox (28.49664pt too wide) in paragraph at lines 482--486
 []\OML/cmm/m/it/10 ale \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (171.35587pt too wide) in paragraph at lines 481--485
+Overfull \hbox (171.35587pt too wide) in paragraph at lines 482--486
 \OML/cmm/m/it/10 bar[]idth=\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; waters\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 watersindex[]ale \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (148.92528pt too wide) in paragraph at lines 481--485
+Overfull \hbox (148.92528pt too wide) in paragraph at lines 482--486
 \OML/cmm/m/it/10 bar[]idth=\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 plt:ylabel\OT1/cmr/m/n/10 ([][])\OML/cmm/m/it/10 plt:title\OT1/cmr/m/n/10 ([][])$ 
  []
 
@@ -9887,30 +9903,30 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:487: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:488: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.487 \end{lstlisting}
+l.488 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 486--488
+Overfull \hbox (20.0pt too wide) in paragraph at lines 487--489
 []
  []
 
 Missing character: There is no 生 in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 图 in font nullfont!
-./chapter-description-of-statistic-data.tex:489: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:490: Undefined control sequence.
 <write> ... Reference `fig:bar3' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.489 生成图 \ref{fig:bar3}
+l.490 生成图 \ref{fig:bar3}
                         。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9919,17 +9935,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:bar3' on page  undefined on input line 489.
+LaTeX Warning: Reference `fig:bar3' on page  undefined on input line 490.
 
 Missing character: There is no 。 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:490: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:491: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.490 \begin{figure}
+l.491 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9940,8 +9956,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:492: Undefined control sequence.
-l.492   \includegraphics
+./chapter-description-of-statistic-data.tex:493: Undefined control sequence.
+l.493   \includegraphics
                         [scale=0.8]{figure/bar3.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9976,13 +9992,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:493: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:494: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.493   \caption
+l.494   \caption
                 {男女购买饮用水条形图}\label{fig:bar3}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9998,37 +10014,37 @@ Missing character: There is no 条 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:494: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:495: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.494 \end{figure}
+l.495 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 489--495
+Overfull \hbox (20.0pt too wide) in paragraph at lines 490--496
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 489--495
+Overfull \hbox (10.86pt too wide) in paragraph at lines 490--496
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:496: LaTeX Error: The font size command \normalsize is not defined:
+./chapter-description-of-statistic-data.tex:497: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.496 \clearpage
+l.497 \clearpage
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10037,10 +10053,10 @@ or  <return>  to continue without it.
 [3
 
 
-./chapter-description-of-statistic-data.tex:496: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:497: Undefined control sequence.
 <write> \newlabel{fig:bar2}{{}{\thepage 
                                         }}
-l.496 \clearpage
+l.497 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10049,10 +10065,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{fig:bar2}{{}{}}
-./chapter-description-of-statistic-data.tex:496: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:497: Undefined control sequence.
 <write> \newlabel{fig:bar3}{{}{\thepage 
                                         }}
-l.496 \clearpage
+l.497 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10062,9 +10078,9 @@ and I'll forget about whatever was undefined.
 
 \newlabel{fig:bar3}{{}{}}
 ]
-./chapter-description-of-statistic-data.tex:497: Undefined control sequence.
-l.497 \section
-              {直方图}
+./chapter-description-of-statistic-data.tex:498: Undefined control sequence.
+l.498 \subsection
+                 {直方图}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10075,7 +10091,7 @@ Missing character: There is no 直 in font nullfont!
 Missing character: There is no 方 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 497--498
+Overfull \hbox (20.0pt too wide) in paragraph at lines 498--499
 [] 
  []
 
@@ -10195,7 +10211,7 @@ Missing character: There is no 方 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 499--500
+Overfull \hbox (20.0pt too wide) in paragraph at lines 500--501
 [] 
  []
 
@@ -10229,23 +10245,23 @@ Missing character: There is no 法 in font nullfont!
 Missing character: There is no 为 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 501--502
+Overfull \hbox (20.0pt too wide) in paragraph at lines 502--503
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 503--503
+Overfull \hbox (20.0pt too wide) in paragraph at lines 504--504
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:504: LaTeX Error: Environment tcolorbox undefined.
+./chapter-description-of-statistic-data.tex:505: LaTeX Error: Environment tcolorbox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.504 \begin{tcolorbox}
+l.505 \begin{tcolorbox}
                        [title = hist 函数的语法]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10268,8 +10284,8 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 语 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:506: Undefined control sequence.
-l.506 \tcblower
+./chapter-description-of-statistic-data.tex:507: Undefined control sequence.
+l.507 \tcblower
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10278,74 +10294,74 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (12.77pt too wide) in paragraph at lines 504--508
+Overfull \hbox (12.77pt too wide) in paragraph at lines 505--509
  \TU/lmr/bx/n/10 [n, 
  []
 
 
-Overfull \hbox (23.7pt too wide) in paragraph at lines 504--508
+Overfull \hbox (23.7pt too wide) in paragraph at lines 505--509
  \TU/lmr/bx/n/10 bins, 
  []
 
 
-Overfull \hbox (40.63pt too wide) in paragraph at lines 504--508
+Overfull \hbox (40.63pt too wide) in paragraph at lines 505--509
  \TU/lmr/bx/n/10 patches] 
  []
 
 
-Overfull \hbox (8.94pt too wide) in paragraph at lines 504--508
+Overfull \hbox (8.94pt too wide) in paragraph at lines 505--509
  \TU/lmr/bx/n/10 = 
  []
 
 
-Overfull \hbox (32.32pt too wide) in paragraph at lines 504--508
+Overfull \hbox (32.32pt too wide) in paragraph at lines 505--509
  \TU/lmr/bx/n/10 hist(x, 
  []
 
 
-Overfull \hbox (30.08pt too wide) in paragraph at lines 504--508
+Overfull \hbox (30.08pt too wide) in paragraph at lines 505--509
  \TU/lmr/bx/n/10 [bins], 
  []
 
 
-Overfull \hbox (50.65001pt too wide) in paragraph at lines 504--508
+Overfull \hbox (50.65001pt too wide) in paragraph at lines 505--509
  \TU/lmr/bx/n/10 **kwargs) 
  []
 
 
-./chapter-description-of-statistic-data.tex:509: LaTeX Error: Environment tcboutputlisting undefined.
+./chapter-description-of-statistic-data.tex:510: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.509 \begin{tcboutputlisting}
+l.510 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-description-of-statistic-data.tex:510: LaTeX Error: Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:511: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.510 \begin{tabular}{>{\bfseries}ll}
+l.511 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no c in font nullfont!
 
-./chapter-description-of-statistic-data.tex:510: LaTeX Error:  Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:511: LaTeX Error:  Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.510 \begin{tabular}{>{\bfseries}ll}
+l.511 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -10503,12 +10519,12 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 矩 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 
-Overfull \hbox (11.59pt too wide) in paragraph at lines 510--524
+Overfull \hbox (11.59pt too wide) in paragraph at lines 511--525
  [][] 
  []
 
-./chapter-description-of-statistic-data.tex:525: Undefined control sequence.
-l.525 \tcblower
+./chapter-description-of-statistic-data.tex:526: Undefined control sequence.
+l.526 \tcblower
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10517,20 +10533,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapter-description-of-statistic-data.tex:527: LaTeX Error: \begin{center} on input line 503 ended by \end{tcboutputlisting}.
+./chapter-description-of-statistic-data.tex:528: LaTeX Error: \begin{center} on input line 504 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.527 \end{tcboutputlisting}
+l.528 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-description-of-statistic-data.tex:528: Undefined control sequence.
-l.528 \tcbuselistingtext
+./chapter-description-of-statistic-data.tex:529: Undefined control sequence.
+l.529 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10539,13 +10555,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapter-description-of-statistic-data.tex:529: LaTeX Error: \begin{center} on input line 503 ended by \end{tcolorbox}.
+./chapter-description-of-statistic-data.tex:530: LaTeX Error: \begin{center} on input line 504 ended by \end{tcolorbox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.529 \end{tcolorbox}
+l.530 \end{tcolorbox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10679,18 +10695,18 @@ Missing character: There is no 录 in font nullfont!
 Missing character: There is no 值 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 532--533
+Overfull \hbox (20.0pt too wide) in paragraph at lines 533--534
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:534: LaTeX Error: Environment table undefined.
+./chapter-description-of-statistic-data.tex:535: LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 \begin{table}
+l.535 \begin{table}
                    [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10702,13 +10718,13 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-description-of-statistic-data.tex:537: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:538: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.537 \caption
+l.538 \caption
               {某饭店每天接待的顾客数的记录值}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11089,20 +11105,20 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:555: LaTeX Error: \begin{document} ended by \end{table}.
+./chapter-description-of-statistic-data.tex:556: LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.555 \end{table}
+l.556 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 534--556
+Overfull \hbox (20.0pt too wide) in paragraph at lines 535--557
 []
  []
 
@@ -11130,19 +11146,19 @@ Missing character: There is no 方 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 557--558
+Overfull \hbox (20.0pt too wide) in paragraph at lines 558--559
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:559: LaTeX Error: The font size command \normalsize is not defined:
+./chapter-description-of-statistic-data.tex:560: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559 \clearpage
+l.560 \clearpage
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -11152,13 +11168,13 @@ or  <return>  to continue without it.
 
 ]
 
-./chapter-description-of-statistic-data.tex:560: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:561: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.560 \begin{lstlisting}
+l.561 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -11210,7 +11226,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 560--562
+Overfull \hbox (20.0pt too wide) in paragraph at lines 561--563
 []
  []
 
@@ -11698,7 +11714,7 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 563--575
+Overfull \hbox (20.0pt too wide) in paragraph at lines 564--576
 []
  []
 
@@ -11738,8 +11754,8 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:576: You can't use `macro parameter character #' in horizontal mode.
-l.576 plt.hist(x, edgecolor='k', alpha=0.35) #
+./chapter-description-of-statistic-data.tex:577: You can't use `macro parameter character #' in horizontal mode.
+l.577 plt.hist(x, edgecolor='k', alpha=0.35) #
                                                设置直方边线颜色为黑色，不透明度为 0.35
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -11778,31 +11794,31 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:578: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:579: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.578 \end{lstlisting}
+l.579 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 576--579
+Overfull \hbox (20.0pt too wide) in paragraph at lines 577--580
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:580: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:581: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.580 \begin{figure}
+l.581 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -11813,8 +11829,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:582: Undefined control sequence.
-l.582   \includegraphics
+./chapter-description-of-statistic-data.tex:583: Undefined control sequence.
+l.583   \includegraphics
                         [scale=0.8]{figure/hist.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11849,13 +11865,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:583: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:584: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.583   \caption
+l.584   \caption
                 {每天接待顾客数分布的直方图}\label{fig:hist}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11874,29 +11890,29 @@ Missing character: There is no 直 in font nullfont!
 Missing character: There is no 方 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:584: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:585: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.584 \end{figure}
+l.585 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 580--585
+Overfull \hbox (20.0pt too wide) in paragraph at lines 581--586
 []
  []
 
 Missing character: There is no 从 in font nullfont!
 Missing character: There is no 图 in font nullfont!
-./chapter-description-of-statistic-data.tex:586: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:587: Undefined control sequence.
 <write> ... Reference `fig:hist' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.586 从图 \ref{fig:hist}
+l.587 从图 \ref{fig:hist}
                         可以看出，每天的顾客数大致符合一个正态分布。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11905,7 +11921,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:hist' on page  undefined on input line 586.
+LaTeX Warning: Reference `fig:hist' on page  undefined on input line 587.
 
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 以 in font nullfont!
@@ -11930,18 +11946,18 @@ Missing character: There is no 分 in font nullfont!
 Missing character: There is no 布 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 586--587
+Overfull \hbox (20.0pt too wide) in paragraph at lines 587--588
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 586--587
+Overfull \hbox (10.86pt too wide) in paragraph at lines 587--588
 []
  []
 
-./chapter-description-of-statistic-data.tex:588: Undefined control sequence.
-l.588 \section
-              {饼图}
+./chapter-description-of-statistic-data.tex:589: Undefined control sequence.
+l.589 \subsection
+                 {饼图}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -11951,7 +11967,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no 饼 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 588--589
+Overfull \hbox (20.0pt too wide) in paragraph at lines 589--590
 [] 
  []
 
@@ -12044,7 +12060,7 @@ Missing character: There is no 比 in font nullfont!
 Missing character: There is no 例 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 590--591
+Overfull \hbox (20.0pt too wide) in paragraph at lines 591--592
 []
  []
 
@@ -12079,23 +12095,23 @@ Missing character: There is no 如 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 592--593
+Overfull \hbox (20.0pt too wide) in paragraph at lines 593--594
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 594--594
+Overfull \hbox (20.0pt too wide) in paragraph at lines 595--595
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:595: LaTeX Error: Environment tcolorbox undefined.
+./chapter-description-of-statistic-data.tex:596: LaTeX Error: Environment tcolorbox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.595 \begin{tcolorbox}
+l.596 \begin{tcolorbox}
                        [title = pie 函数的语法]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12117,8 +12133,8 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 语 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:597: Undefined control sequence.
-l.597 \tcblower
+./chapter-description-of-statistic-data.tex:598: Undefined control sequence.
+l.598 \tcblower
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12127,79 +12143,79 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (30.45pt too wide) in paragraph at lines 595--599
+Overfull \hbox (30.45pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 bar(x, 
  []
 
 
-Overfull \hbox (18.36pt too wide) in paragraph at lines 595--599
+Overfull \hbox (18.36pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 [ex- 
  []
 
 
-Overfull \hbox (30.82pt too wide) in paragraph at lines 595--599
+Overfull \hbox (30.82pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 pode], 
  []
 
 
-Overfull \hbox (15.8pt too wide) in paragraph at lines 595--599
+Overfull \hbox (15.8pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 [la- 
  []
 
 
-Overfull \hbox (26.09pt too wide) in paragraph at lines 595--599
+Overfull \hbox (26.09pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 bels], 
  []
 
 
-Overfull \hbox (19.0pt too wide) in paragraph at lines 595--599
+Overfull \hbox (19.0pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 [au- 
  []
 
 
-Overfull \hbox (31.29001pt too wide) in paragraph at lines 595--599
+Overfull \hbox (31.29001pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 topic], 
  []
 
 
-Overfull \hbox (50.65001pt too wide) in paragraph at lines 595--599
+Overfull \hbox (50.65001pt too wide) in paragraph at lines 596--600
  \TU/lmr/bx/n/10 **kwargs) 
  []
 
 
-./chapter-description-of-statistic-data.tex:600: LaTeX Error: Environment tcboutputlisting undefined.
+./chapter-description-of-statistic-data.tex:601: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.600 \begin{tcboutputlisting}
+l.601 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-description-of-statistic-data.tex:601: LaTeX Error: Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:602: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.601 \begin{tabular}{>{\bfseries}ll}
+l.602 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no c in font nullfont!
 
-./chapter-description-of-statistic-data.tex:601: LaTeX Error:  Illegal character in array arg.
+./chapter-description-of-statistic-data.tex:602: LaTeX Error:  Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.601 \begin{tabular}{>{\bfseries}ll}
+l.602 \begin{tabular}{>{\bfseries}ll}
                                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12332,20 +12348,20 @@ Missing character: There is no 他 in font nullfont!
 Missing character: There is no 属 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:612: LaTeX Error: \begin{center} on input line 594 ended by \end{tcboutputlisting}.
+./chapter-description-of-statistic-data.tex:613: LaTeX Error: \begin{center} on input line 595 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 \end{tcboutputlisting}
+l.613 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-description-of-statistic-data.tex:613: Undefined control sequence.
-l.613 \tcbuselistingtext
+./chapter-description-of-statistic-data.tex:614: Undefined control sequence.
+l.614 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12354,13 +12370,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapter-description-of-statistic-data.tex:614: LaTeX Error: \begin{center} on input line 594 ended by \end{tcolorbox}.
+./chapter-description-of-statistic-data.tex:615: LaTeX Error: \begin{center} on input line 595 ended by \end{tcolorbox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.614 \end{tcolorbox}
+l.615 \end{tcolorbox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12431,18 +12447,18 @@ Missing character: There is no 数 in font nullfont!
 Missing character: There is no 据 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 617--618
+Overfull \hbox (20.0pt too wide) in paragraph at lines 618--619
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:619: LaTeX Error: Environment table undefined.
+./chapter-description-of-statistic-data.tex:620: LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.619 \begin{table}
+l.620 \begin{table}
                    [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12454,13 +12470,13 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-description-of-statistic-data.tex:622: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:623: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.622 \caption
+l.623 \caption
               {购水类型的调查数据}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12502,20 +12518,20 @@ Missing character: There is no 果 in font nullfont!
 Missing character: There is no 汁 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:634: LaTeX Error: \begin{document} ended by \end{table}.
+./chapter-description-of-statistic-data.tex:635: LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.634 \end{table}
+l.635 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 619--635
+Overfull \hbox (20.0pt too wide) in paragraph at lines 620--636
 []
  []
 
@@ -12529,18 +12545,18 @@ Missing character: There is no 图 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 636--637
+Overfull \hbox (20.0pt too wide) in paragraph at lines 637--638
 [] 
  []
 
 
-./chapter-description-of-statistic-data.tex:638: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:639: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.638 \begin{lstlisting}
+l.639 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12607,12 +12623,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 638--641
+Overfull \hbox (20.0pt too wide) in paragraph at lines 639--642
 []
  []
 
-./chapter-description-of-statistic-data.tex:642: You can't use `macro parameter character #' in vertical mode.
-l.642 #
+./chapter-description-of-statistic-data.tex:643: You can't use `macro parameter character #' in vertical mode.
+l.643 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12704,34 +12720,34 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:644: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:645: Missing $ inserted.
 <inserted text> 
                 $
-l.644 plt.rcParams['axes.unicode_
+l.645 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:645: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:646: Missing $ inserted.
 <inserted text> 
                 $
-l.645 
+l.646 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 642--645
+Overfull \hbox (20.0pt too wide) in paragraph at lines 643--646
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 642--645
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 643--646
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 642--645
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 643--646
 \OML/cmm/m/it/10 False$ 
  []
 
@@ -12808,8 +12824,8 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:648: You can't use `macro parameter character #' in horizontal mode.
-l.648 explode = [0, 0.1, 0, 0, 0]  #
+./chapter-description-of-statistic-data.tex:649: You can't use `macro parameter character #' in horizontal mode.
+l.649 explode = [0, 0.1, 0, 0, 0]  #
                                      突出显示第二个扇区
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12826,7 +12842,7 @@ Missing character: There is no 个 in font nullfont!
 Missing character: There is no 扇 in font nullfont!
 Missing character: There is no 区 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 646--649
+Overfull \hbox (20.0pt too wide) in paragraph at lines 647--650
 []
  []
 
@@ -12891,8 +12907,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:651: You can't use `macro parameter character #' in horizontal mode.
-l.651 plt.legend()  #
+./chapter-description-of-statistic-data.tex:652: You can't use `macro parameter character #' in horizontal mode.
+l.652 plt.legend()  #
                       显示标签
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12920,8 +12936,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:652: You can't use `macro parameter character #' in horizontal mode.
-l.652 plt.axis('equal')  #
+./chapter-description-of-statistic-data.tex:653: You can't use `macro parameter character #' in horizontal mode.
+l.653 plt.axis('equal')  #
                            让图形和坐标轴相等，这样避免饼图为椭圆形
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12959,31 +12975,31 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:654: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:655: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.654 \end{lstlisting}
+l.655 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 650--655
+Overfull \hbox (20.0pt too wide) in paragraph at lines 651--656
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:656: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:657: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.656 \begin{figure}
+l.657 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12994,8 +13010,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:658: Undefined control sequence.
-l.658   \includegraphics
+./chapter-description-of-statistic-data.tex:659: Undefined control sequence.
+l.659   \includegraphics
                         [scale=0.7]{figure/pie1.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13030,13 +13046,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:659: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:660: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.659   \caption
+l.660   \caption
                 {调查结果的饼图}\label{fig:pie}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13049,20 +13065,20 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 饼 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 
-./chapter-description-of-statistic-data.tex:660: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:661: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 \end{figure}
+l.661 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 656--661
+Overfull \hbox (20.0pt too wide) in paragraph at lines 657--662
 []
  []
 
@@ -13111,13 +13127,13 @@ Missing character: There is no 实 in font nullfont!
 Missing character: There is no 现 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-./chapter-description-of-statistic-data.tex:663: LaTeX Error: Environment lstlisting undefined.
+./chapter-description-of-statistic-data.tex:664: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.663 \begin{lstlisting}
+l.664 \begin{lstlisting}
                         [Language=Python]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -13184,12 +13200,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 662--666
+Overfull \hbox (20.0pt too wide) in paragraph at lines 663--667
 []
  []
 
-./chapter-description-of-statistic-data.tex:667: You can't use `macro parameter character #' in vertical mode.
-l.667 #
+./chapter-description-of-statistic-data.tex:668: You can't use `macro parameter character #' in vertical mode.
+l.668 #
         这两行代码解决 plt 中文显示的问题
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -13281,39 +13297,39 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-description-of-statistic-data.tex:669: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:670: Missing $ inserted.
 <inserted text> 
                 $
-l.669 plt.rcParams['axes.unicode_
+l.670 plt.rcParams['axes.unicode_
                                  minus'] = False
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-description-of-statistic-data.tex:670: Missing $ inserted.
+./chapter-description-of-statistic-data.tex:671: Missing $ inserted.
 <inserted text> 
                 $
-l.670 
+l.671 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 667--670
+Overfull \hbox (20.0pt too wide) in paragraph at lines 668--671
 []
  []
 
 
-Overfull \hbox (43.59453pt too wide) in paragraph at lines 667--670
+Overfull \hbox (43.59453pt too wide) in paragraph at lines 668--671
 []\OML/cmm/m/it/10 inus[]\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (25.62968pt too wide) in paragraph at lines 667--670
+Overfull \hbox (25.62968pt too wide) in paragraph at lines 668--671
 \OML/cmm/m/it/10 False$ 
  []
 
-./chapter-description-of-statistic-data.tex:672: You can't use `macro parameter character #' in vertical mode.
-l.672 #
+./chapter-description-of-statistic-data.tex:673: You can't use `macro parameter character #' in vertical mode.
+l.673 #
         自定义 autopct 函数
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -13411,7 +13427,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no f in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 672--676
+Overfull \hbox (20.0pt too wide) in paragraph at lines 673--677
 []
  []
 
@@ -13488,8 +13504,8 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:680: You can't use `macro parameter character #' in horizontal mode.
-l.680 explode = [0, 0.1, 0, 0, 0]  #
+./chapter-description-of-statistic-data.tex:681: You can't use `macro parameter character #' in horizontal mode.
+l.681 explode = [0, 0.1, 0, 0, 0]  #
                                      突出显示第二个扇区
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -13506,7 +13522,7 @@ Missing character: There is no 个 in font nullfont!
 Missing character: There is no 扇 in font nullfont!
 Missing character: There is no 区 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 678--681
+Overfull \hbox (20.0pt too wide) in paragraph at lines 679--682
 []
  []
 
@@ -13580,8 +13596,8 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
-./chapter-description-of-statistic-data.tex:682: You can't use `macro parameter character #' in horizontal mode.
-l.682 ...els, autopct=lambda pct: func(pct, x),  #
+./chapter-description-of-statistic-data.tex:683: You can't use `macro parameter character #' in horizontal mode.
+l.683 ...els, autopct=lambda pct: func(pct, x),  #
                                                    利用 lambda 定义 pct 函数
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -13641,8 +13657,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:684: You can't use `macro parameter character #' in horizontal mode.
-l.684 plt.legend()  #
+./chapter-description-of-statistic-data.tex:685: You can't use `macro parameter character #' in horizontal mode.
+l.685 plt.legend()  #
                       显示标签
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -13670,8 +13686,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-description-of-statistic-data.tex:685: You can't use `macro parameter character #' in horizontal mode.
-l.685 plt.axis('equal')  #
+./chapter-description-of-statistic-data.tex:686: You can't use `macro parameter character #' in horizontal mode.
+l.686 plt.axis('equal')  #
                            让图形和坐标轴相等，这样饼图会更好看
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -13707,31 +13723,31 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./chapter-description-of-statistic-data.tex:687: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./chapter-description-of-statistic-data.tex:688: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.687 \end{lstlisting}
+l.688 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 682--688
+Overfull \hbox (20.0pt too wide) in paragraph at lines 683--689
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:689: LaTeX Error: Environment figure undefined.
+./chapter-description-of-statistic-data.tex:690: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.689 \begin{figure}
+l.690 \begin{figure}
                     [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -13742,8 +13758,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-description-of-statistic-data.tex:691: Undefined control sequence.
-l.691   \includegraphics
+./chapter-description-of-statistic-data.tex:692: Undefined control sequence.
+l.692   \includegraphics
                         [scale=0.7]{figure/pie2.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13778,14 +13794,14 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./chapter-description-of-statistic-data.tex:692: LaTeX Error: \caption outside float.
+./chapter-description-of-statistic-data.tex:693: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.692   \caption
-                {调查结果的饼图（同事显示比例与原始数据）}\label{fig:pie}
+l.693   \caption
+                {调查结果的饼图（同时显示比例与原始数据）}\label{fig:pie}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -13798,7 +13814,7 @@ Missing character: There is no 饼 in font nullfont!
 Missing character: There is no 图 in font nullfont!
 Missing character: There is no （ in font nullfont!
 Missing character: There is no 同 in font nullfont!
-Missing character: There is no 事 in font nullfont!
+Missing character: There is no 时 in font nullfont!
 Missing character: There is no 显 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 比 in font nullfont!
@@ -13810,32 +13826,32 @@ Missing character: There is no 数 in font nullfont!
 Missing character: There is no 据 in font nullfont!
 Missing character: There is no ） in font nullfont!
 
-./chapter-description-of-statistic-data.tex:693: LaTeX Error: \begin{document} ended by \end{figure}.
+./chapter-description-of-statistic-data.tex:694: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 \end{figure}
+l.694 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 689--694
+Overfull \hbox (20.0pt too wide) in paragraph at lines 690--695
 []
  []
 
 
-./chapter-description-of-statistic-data.tex:695: LaTeX Error: The font size command \normalsize is not defined:
+./chapter-description-of-statistic-data.tex:696: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.695 \clearpage
+l.696 \clearpage
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -13844,10 +13860,10 @@ or  <return>  to continue without it.
 [5
 
 
-./chapter-description-of-statistic-data.tex:695: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:696: Undefined control sequence.
 <write> \newlabel{fig:hist}{{}{\thepage 
                                         }}
-l.695 \clearpage
+l.696 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13856,10 +13872,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{fig:hist}{{}{}}
-./chapter-description-of-statistic-data.tex:695: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:696: Undefined control sequence.
 <write> \newlabel{fig:pie}{{}{\thepage 
                                        }}
-l.695 \clearpage
+l.696 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13868,10 +13884,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{fig:pie}{{}{}}
-./chapter-description-of-statistic-data.tex:695: Undefined control sequence.
+./chapter-description-of-statistic-data.tex:696: Undefined control sequence.
 <write> \newlabel{fig:pie}{{}{\thepage 
                                        }}
-l.695 \clearpage
+l.696 \clearpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13881,9 +13897,9 @@ and I'll forget about whatever was undefined.
 
 \newlabel{fig:pie}{{}{}}
 ]
-./chapter-description-of-statistic-data.tex:696: Undefined control sequence.
-l.696 \section
-              {箱型图}
+./chapter-description-of-statistic-data.tex:697: Undefined control sequence.
+l.697 \subsection
+                 {箱线图}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13891,8 +13907,348 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no 箱 in font nullfont!
-Missing character: There is no 型 in font nullfont!
+Missing character: There is no 线 in font nullfont!
 Missing character: There is no 图 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 697--698
+[] 
+ []
+
+Missing character: There is no 箱 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 图 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 术 in font nullfont!
+Missing character: There is no 论 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 经 in font nullfont!
+Missing character: There is no 常 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 现 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 种 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 显 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 组 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 散 in font nullfont!
+Missing character: There is no 情 in font nullfont!
+Missing character: There is no 况 in font nullfont!
+Missing character: There is no 资 in font nullfont!
+Missing character: There is no 料 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 计 in font nullfont!
+Missing character: There is no 图 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 最 in font nullfont!
+Missing character: There is no 大 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 最 in font nullfont!
+Missing character: There is no 小 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 四 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 共 in font nullfont!
+Missing character: There is no 五 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 征 in font nullfont!
+Missing character: There is no 绘 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+Missing character: There is no 而 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 699--700
+[]
+ []
+
+
+./chapter-description-of-statistic-data.tex:702: LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.702 \begin{table}
+                   [!ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+./chapter-description-of-statistic-data.tex:704: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.704 \caption
+              {学生成绩统计表}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 生 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 绩 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 计 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 生 in font nullfont!
+Missing character: There is no 编 in font nullfont!
+Missing character: There is no 号 in font nullfont!
+Missing character: There is no 课 in font nullfont!
+Missing character: There is no 程 in font nullfont!
+Missing character: There is no 名 in font nullfont!
+Missing character: There is no 称 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 英 in font nullfont!
+Missing character: There is no 语 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 经 in font nullfont!
+Missing character: There is no 济 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 市 in font nullfont!
+Missing character: There is no 场 in font nullfont!
+Missing character: There is no 营 in font nullfont!
+Missing character: There is no 销 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 财 in font nullfont!
+Missing character: There is no 务 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 计 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+./chapter-description-of-statistic-data.tex:716: LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.716 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 702--717
+[]
+ []
+
+./chapter-description-of-statistic-data.tex:718: Undefined control sequence.
+l.718 \section
+              {用 pandas 调用 plot 函数画图}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 调 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 画 in font nullfont!
+Missing character: There is no 图 in font nullfont!
+./chapter-description-of-statistic-data.tex:719: Undefined control sequence.
+l.719 \section
+              {画子图函数 subplot}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 画 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 图 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
 )
 ! Emergency stop.
 <*> chapter-description-of-statistic-data.tex

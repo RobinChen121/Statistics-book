@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.15)  25 AUG 2019 19:50
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.15)  14 SEP 2019 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1328,7 +1328,26 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 ) (d:/texlive/2019/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
 \c@mn@abspage=\count344
-) (d:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+)
+
+./elegantbook.cls:336: LaTeX Error: Option clash for package url.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 
+      
+The package url has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [obeyspaces,spaces]
+Adding the global options:
+  ,obeyspaces,spaces
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+(d:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip71
 \multirow@cntb=\count345
@@ -1374,8 +1393,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count348
-
-(d:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (d:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4424.
@@ -1425,13 +1443,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip73
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 352.
-Package hyperref Info: Option `unicode' set `true' on input line 352.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 352.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 352.
-Package hyperref Info: Option `colorlinks' set `true' on input line 352.
-Package hyperref Info: Option `plainpages' set `false' on input line 352.
-Package hyperref Info: Option `linktocpage' set `true' on input line 352.
+Package hyperref Info: Option `breaklinks' set `true' on input line 354.
+Package hyperref Info: Option `unicode' set `true' on input line 354.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 354.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 354.
+Package hyperref Info: Option `colorlinks' set `true' on input line 354.
+Package hyperref Info: Option `plainpages' set `false' on input line 354.
+Package hyperref Info: Option `linktocpage' set `true' on input line 354.
  (d:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/07/16 v2.11 Sectioning titles
 \ttl@box=\box102
@@ -1453,7 +1471,8 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 ) (d:/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
- (d:/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
+
+(d:/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
@@ -1471,8 +1490,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks47
 \verbatim@line=\toks48
 \verbatim@in@stream=\read4
-)
-(d:/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
+) (d:/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (d:/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
@@ -1572,13 +1590,13 @@ Package: listings 2019/02/27 1.8b (Carsten Heinz)
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 
-./elegantbook.cls:776: Package xkeyval Error: `texcsstyle' undefined in families `lst'.
+./elegantbook.cls:778: Package xkeyval Error: `texcsstyle' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.776 }
+l.778 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1851,7 +1869,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 
 ]
-Package marginnote Info: Using workaround for absolute page number on input line 28.
+Package marginnote Info: Using workaround for absolute page number on input line 33.
 )
 \tf@toc=\write9
 \openout9 = `elegantbook-cn.toc'.
@@ -1860,32 +1878,27 @@ Package marginnote Info: Using workaround for absolute page number on input line
 Package hyperref Info: Option `pageanchor' set `true' on input line 27.
  (./chapters/chapter-python-description-install.tex
 第 1\tmspace +\thickmuskip {.2777em}章 1.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter-python-usage.tex [1
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [1
 
 
 ]
-第 2\tmspace +\thickmuskip {.2777em}章 2.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter-numpyPandas.tex [2
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 35.
+File: figure/chapter1/pythonDownload.png Graphic file (type bmp)
+<figure/chapter1/pythonDownload.png>
+File: figure/chapter1/pythonDownload2.png Graphic file (type bmp)
+<figure/chapter1/pythonDownload2.png>
+File: figure/chapter1/pythonDownload3.png Graphic file (type bmp)
+<figure/chapter1/pythonDownload3.png>
+ (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2
 
 ]
-第 3\tmspace +\thickmuskip {.2777em}章 3.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter-description-of-statistic-data.tex [3
-
-]
-第 4\tmspace +\thickmuskip {.2777em}章 4.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./chapters/chapter-description-of-statistic-data.tex:12: Package xkeyval Error: `Language' undefined in families `lst'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \begin{lstlisting}[Language=Python]
-                                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+File: figure/chapter1/pycharm.png Graphic file (type bmp)
+<figure/chapter1/pycharm.png>
+File: figure/chapter1/pycharm2.png Graphic file (type bmp)
+<figure/chapter1/pycharm2.png>
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1908,6 +1921,32 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [3]
+File: figure/chapter1/pycharm3.png Graphic file (type bmp)
+<figure/chapter1/pycharm3.png>
+) (./chapters/chapter-python-usage.tex (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [4]
+第 2\tmspace +\thickmuskip {.2777em}章 2.
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter-numpyPandas.tex [5
+
+]
+第 3\tmspace +\thickmuskip {.2777em}章 3.
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter-description-of-statistic-data.tex [6
+
+]
+第 4\tmspace +\thickmuskip {.2777em}章 4.
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+
+./chapters/chapter-description-of-statistic-data.tex:12: Package xkeyval Error: `Language' undefined in families `lst'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \begin{lstlisting}[Language=Python]
+                                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 ./chapters/chapter-description-of-statistic-data.tex:20: Package xkeyval Error: `Language' undefined in families `lst'.
@@ -1976,7 +2015,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4
+[7
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1991,7 +2030,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 79.
- (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [5]
+ (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [8]
 
 ./chapters/chapter-description-of-statistic-data.tex:124: Package xkeyval Error: `Language' undefined in families `lst'.
 
@@ -2018,139 +2057,139 @@ If that doesn't work, type  X <return>  to quit.
 
 File: figure/sinx2.png Graphic file (type bmp)
 <figure/sinx2.png>
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [6
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [9
 
-]
+] (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [10]
 
-./chapters/chapter-description-of-statistic-data.tex:202: Package xkeyval Error: `Language' undefined in families `lst'.
+./chapters/chapter-description-of-statistic-data.tex:203: Package xkeyval Error: `Language' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 \begin{lstlisting}[Language = Python]
+l.203 \begin{lstlisting}[Language = Python]
                                            
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [7]
 File: figure/gdp.png Graphic file (type bmp)
 <figure/gdp.png>
-LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 239.
- (d:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 240.
+(d:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.95pt on input line 239.
+(Font)              scaled to size 10.95pt on input line 240.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 239.
+(Font)              scaled to size 9.0pt on input line 240.
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 9.0pt on input line 239.
- (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [8]
+(Font)              scaled to size 9.0pt on input line 240.
 
-./chapters/chapter-description-of-statistic-data.tex:247: LaTeX Error: Environment tcboutputlisting undefined.
+
+./chapters/chapter-description-of-statistic-data.tex:248: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 \begin{tcboutputlisting}
+l.248 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapters/chapter-description-of-statistic-data.tex:257: LaTeX Error: \begin{tcb@savebox} on input line 244 ended by \end{tcboutputlisting}.
+./chapters/chapter-description-of-statistic-data.tex:258: LaTeX Error: \begin{tcb@savebox} on input line 245 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 \end{tcboutputlisting}
+l.258 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapters/chapter-description-of-statistic-data.tex:258: Undefined control sequence.
-l.258 \tcbuselistingtext
+./chapters/chapter-description-of-statistic-data.tex:259: Undefined control sequence.
+l.259 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-./chapters/chapter-description-of-statistic-data.tex:284: Package xkeyval Error: `Language' undefined in families `lst'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 \begin{lstlisting}[Language=Python]
-                                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [9]
-File: figure/scatter1.png Graphic file (type bmp)
-<figure/scatter1.png>
-
-Overfull \hbox (44.27412pt too wide) in paragraph at lines 305--306
- [][] 
- []
-
-
-./chapters/chapter-description-of-statistic-data.tex:311: Package xkeyval Error: `Language' undefined in families `lst'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.311 \begin{lstlisting}[Language=Python]
-                                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [10]
-File: figure/scatter2.png Graphic file (type bmp)
-<figure/scatter2.png>
-
-Overfull \hbox (44.27412pt too wide) in paragraph at lines 336--337
- [][] 
- []
 
 (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [11]
 
-./chapters/chapter-description-of-statistic-data.tex:352: LaTeX Error: Environment tcboutputlisting undefined.
+./chapters/chapter-description-of-statistic-data.tex:285: Package xkeyval Error: `Language' undefined in families `lst'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 \begin{lstlisting}[Language=Python]
+                                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [12]
+File: figure/scatter1.png Graphic file (type bmp)
+<figure/scatter1.png>
+
+Overfull \hbox (44.27412pt too wide) in paragraph at lines 306--307
+ [][] 
+ []
+
+
+./chapters/chapter-description-of-statistic-data.tex:312: Package xkeyval Error: `Language' undefined in families `lst'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.312 \begin{lstlisting}[Language=Python]
+                                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [13]
+File: figure/scatter2.png Graphic file (type bmp)
+<figure/scatter2.png>
+
+Overfull \hbox (44.27412pt too wide) in paragraph at lines 337--338
+ [][] 
+ []
+
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [14] (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [15]
+
+./chapters/chapter-description-of-statistic-data.tex:353: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.352 \begin{tcboutputlisting}
+l.353 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapters/chapter-description-of-statistic-data.tex:361: LaTeX Error: \begin{tcb@savebox} on input line 349 ended by \end{tcboutputlisting}.
+./chapters/chapter-description-of-statistic-data.tex:362: LaTeX Error: \begin{tcb@savebox} on input line 350 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.361 \end{tcboutputlisting}
+l.362 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapters/chapter-description-of-statistic-data.tex:362: Undefined control sequence.
-l.362 \tcbuselistingtext
+./chapters/chapter-description-of-statistic-data.tex:363: Undefined control sequence.
+l.363 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2159,50 +2198,50 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapters/chapter-description-of-statistic-data.tex:386: Package xkeyval Error: `Language' undefined in families `lst'.
+./chapters/chapter-description-of-statistic-data.tex:387: Package xkeyval Error: `Language' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.386 \begin{lstlisting}[Language=Python]
+l.387 \begin{lstlisting}[Language=Python]
                                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: figure/bar1.png Graphic file (type bmp)
 <figure/bar1.png>
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [12
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [16
 
 ]
 
-./chapters/chapter-description-of-statistic-data.tex:418: LaTeX Error: Environment tcboutputlisting undefined.
+./chapters/chapter-description-of-statistic-data.tex:419: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.418 \begin{tcboutputlisting}
+l.419 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapters/chapter-description-of-statistic-data.tex:427: LaTeX Error: \begin{tcb@savebox} on input line 415 ended by \end{tcboutputlisting}.
+./chapters/chapter-description-of-statistic-data.tex:428: LaTeX Error: \begin{tcb@savebox} on input line 416 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.427 \end{tcboutputlisting}
+l.428 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapters/chapter-description-of-statistic-data.tex:428: Undefined control sequence.
-l.428 \tcbuselistingtext
+./chapters/chapter-description-of-statistic-data.tex:429: Undefined control sequence.
+l.429 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2211,54 +2250,54 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapters/chapter-description-of-statistic-data.tex:434: Package xkeyval Error: `Language' undefined in families `lst'.
+./chapters/chapter-description-of-statistic-data.tex:435: Package xkeyval Error: `Language' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.434 \begin{lstlisting}[Language=Python]
+l.435 \begin{lstlisting}[Language=Python]
                                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [13]
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [17]
 File: figure/bar2.png Graphic file (type bmp)
 <figure/bar2.png>
 
 
-./chapters/chapter-description-of-statistic-data.tex:460: Package xkeyval Error: `Language' undefined in families `lst'.
+./chapters/chapter-description-of-statistic-data.tex:461: Package xkeyval Error: `Language' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.460 \begin{lstlisting}[Language=Python]
+l.461 \begin{lstlisting}[Language=Python]
                                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [14]
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [18]
 File: figure/bar3.png Graphic file (type bmp)
 <figure/bar3.png>
- (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [15]
+ (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [19]
 
-./chapters/chapter-description-of-statistic-data.tex:509: LaTeX Error: Environment tcboutputlisting undefined.
+./chapters/chapter-description-of-statistic-data.tex:510: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.509 \begin{tcboutputlisting}
+l.510 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapters/chapter-description-of-statistic-data.tex:525: Extra }, or forgotten \endgroup.
+./chapters/chapter-description-of-statistic-data.tex:526: Extra }, or forgotten \endgroup.
 \endtcb@savebox ...efalse \color@endgroup \egroup 
                                                   \expandafter \@iiiparbox \...
-l.525 \tcblower
+l.526 \tcblower
                
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2267,20 +2306,20 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./chapters/chapter-description-of-statistic-data.tex:527: LaTeX Error: \begin{tcb@savebox} on input line 525 ended by \end{tcboutputlisting}.
+./chapters/chapter-description-of-statistic-data.tex:528: LaTeX Error: \begin{tcb@savebox} on input line 526 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.527 \end{tcboutputlisting}
+l.528 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapters/chapter-description-of-statistic-data.tex:528: Undefined control sequence.
-l.528 \tcbuselistingtext
+./chapters/chapter-description-of-statistic-data.tex:529: Undefined control sequence.
+l.529 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2288,10 +2327,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter-description-of-statistic-data.tex:529: Missing } inserted.
+./chapters/chapter-description-of-statistic-data.tex:530: Missing } inserted.
 <inserted text> 
                 }
-l.529 \end{tcolorbox}
+l.530 \end{tcolorbox}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2299,54 +2338,54 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [16
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [20
 
 ]
 
-./chapters/chapter-description-of-statistic-data.tex:560: Package xkeyval Error: `Language' undefined in families `lst'.
+./chapters/chapter-description-of-statistic-data.tex:561: Package xkeyval Error: `Language' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.560 \begin{lstlisting}[Language=Python]
+l.561 \begin{lstlisting}[Language=Python]
                                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: figure/hist.png Graphic file (type bmp)
 <figure/hist.png>
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [17
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [21
 
 ]
 
-./chapters/chapter-description-of-statistic-data.tex:600: LaTeX Error: Environment tcboutputlisting undefined.
+./chapters/chapter-description-of-statistic-data.tex:601: LaTeX Error: Environment tcboutputlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.600 \begin{tcboutputlisting}
+l.601 \begin{tcboutputlisting}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapters/chapter-description-of-statistic-data.tex:612: LaTeX Error: \begin{tcb@savebox} on input line 597 ended by \end{tcboutputlisting}.
+./chapters/chapter-description-of-statistic-data.tex:613: LaTeX Error: \begin{tcb@savebox} on input line 598 ended by \end{tcboutputlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 \end{tcboutputlisting}
+l.613 \end{tcboutputlisting}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapters/chapter-description-of-statistic-data.tex:613: Undefined control sequence.
-l.613 \tcbuselistingtext
+./chapters/chapter-description-of-statistic-data.tex:614: Undefined control sequence.
+l.614 \tcbuselistingtext
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2355,71 +2394,71 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./chapters/chapter-description-of-statistic-data.tex:638: Package xkeyval Error: `Language' undefined in families `lst'.
+./chapters/chapter-description-of-statistic-data.tex:639: Package xkeyval Error: `Language' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.638 \begin{lstlisting}[Language=Python]
+l.639 \begin{lstlisting}[Language=Python]
                                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [18]
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [22]
 File: figure/pie1.png Graphic file (type bmp)
 <figure/pie1.png>
 
 
-./chapters/chapter-description-of-statistic-data.tex:663: Package xkeyval Error: `Language' undefined in families `lst'.
+./chapters/chapter-description-of-statistic-data.tex:664: Package xkeyval Error: `Language' undefined in families `lst'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.663 \begin{lstlisting}[Language=Python]
+l.664 \begin{lstlisting}[Language=Python]
                                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [19]
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [23]
 File: figure/pie2.png Graphic file (type bmp)
 <figure/pie2.png>
- (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [20]) (./chapters/chapter2.tex (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [21
+ (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [24]) (./chapters/chapter2.tex (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [25
 
 ]
 第 5\tmspace +\thickmuskip {.2777em}章 5.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter3.tex [22
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter3.tex [26
 
 ]
 第 6\tmspace +\thickmuskip {.2777em}章 6.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter4.tex [23
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter4.tex [27
 
 ]
 第 7\tmspace +\thickmuskip {.2777em}章 7.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter5.tex [24
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter5.tex [28
 
 ]
 第 8\tmspace +\thickmuskip {.2777em}章 8.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter6.tex [25
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter6.tex [29
 
 ]
 第 9\tmspace +\thickmuskip {.2777em}章 9.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter7.tex [26
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter7.tex [30
 
 ]
 第 10\tmspace +\thickmuskip {.2777em}章 10.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter8.tex [27
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter8.tex [31
 
 ]
 第 11\tmspace +\thickmuskip {.2777em}章 11.
-(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter9.tex [28
+(d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (./chapters/chapter9.tex [32
 
 ]
 第 12\tmspace +\thickmuskip {.2777em}章 12.
 (d:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) 
 AED: lastpage setting LastPage
-[29
+[33
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 739.
@@ -2428,19 +2467,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 739.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 739.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 739.
 Package rerunfilecheck Info: File `elegantbook-cn.out' has not changed.
-(rerunfilecheck)             Checksum: 181EECA2D90282CD732258C71A346530.
+(rerunfilecheck)             Checksum: BA037DE92E227A7CA4C45D556DB6CA91.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 47575 strings out of 492909
- 969097 string characters out of 6136299
+ 47736 strings out of 492909
+ 976916 string characters out of 6136299
  1513637 words of memory out of 5000000
- 50724 multiletter control sequences out of 15000+600000
- 607114 words of font info for 165 fonts, out of 8000000 for 9000
+ 50860 multiletter control sequences out of 15000+600000
+ 609922 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,16n,100p,2603b,2622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,16n,100p,2603b,2624s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on elegantbook-cn.xdv (32 pages, 484048 bytes).
+Output written on elegantbook-cn.xdv (36 pages, 553664 bytes).

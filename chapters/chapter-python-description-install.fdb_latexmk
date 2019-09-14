@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 1568440228 "chapter-python-description-install.xdv" "chapter-python-description-install.pdf" "chapter-python-description-install" 1568440229
+  "chapter-python-description-install.xdv" 1568440228 172 7f3dd9759eb9f3ed5ca920d2adc7803c "xelatex"
+  (generated)
+  "chapter-python-description-install.pdf"
+["xelatex"] 1568440227 "chapter-python-description-install.tex" "chapter-python-description-install.xdv" "chapter-python-description-install" 1568440229
+  "chapter-python-description-install.aux" 1568190238 9 a94a2480d3289e625eea47cd1b285758 ""
+  "chapter-python-description-install.tex" 1568440227 4979 3ae31dfe9a13d7c6bd38a0cbea2e0be4 ""
+  "d:/texlive/2019/texmf-dist/web2c/texmf.cnf" 1565871058 39359 08243a440b2635053cec8490846b238a ""
+  "d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1565873138 3752616 15ccc77ef067a984bd70e7c57178895e ""
+  "d:/texlive/2019/texmf.cnf" 1565872905 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+  (generated)
+  "chapter-python-description-install.xdv"
+  "chapter-python-description-install.log"

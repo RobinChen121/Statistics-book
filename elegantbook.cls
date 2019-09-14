@@ -332,6 +332,8 @@
 	footskip=4mm
 }}{\relax}
 
+\usepackage[obeyspaces,spaces]{url}
+
 \RequirePackage{multirow}
 \RequirePackage{hyperref}
 \hypersetup{

@@ -117,7 +117,7 @@ plt.show()
 \end{subtable}
 \end{table}
 
-**kwargs 的常用设置包括线条的粗细 linewidth，图像标签  label 等。下面一些 plot 函数的代码展示了 [x]，[fmt]，**Kwargs 的一些可选用法。
+**kwargs 的常用设置包括线条的粗细 linewidth（或写成 lw），图像标签  label 等。下面一些 plot 函数的代码展示了 [x]，[fmt]，**Kwargs 的一些可选用法。
 
 \clearpage
 
@@ -126,7 +126,7 @@ plt.show()
 >>> plot(y)           # 据纵坐标数据 y 画图，横坐标数据默认为从 0 到 N-1，步长为 1 的等差数组
 >>> plot(x, y, 'bo')  # 颜色为蓝色('b')、点形为圆('o')
 >>> plot(y, 'g-.')     # 颜色为绿色('g')，线形为折线('-.')
->>> plt.plot(x, y, 'yo:', label='y=sin(x)', linewidth=2) # 颜色为黄色('y')，点形为圆形('o')，线形为虚线(':')，lable 内容为 'y=sin(x)', 线条宽度为 2
+>>> plt.plot(x, y, 'yo:', label='y=sin(x)', lw=2) # 颜色为黄色('y')，点形为圆形('o')，线形为虚线(':')，lable 内容为 'y=sin(x)', 线条宽度为 2
 \end{lstlisting}
 
 
@@ -169,7 +169,8 @@ plt.show()
 \end{figure}
 
 
-\section{线图}
+\section{常用图形的绘制}
+\subsection{线图}
 
 在统计学中，线图一般用来表示时间序列数据，线图称为趋势图（run chart），因为从线图中可以清晰地看出数据虽时间变化的趋势。 表 \ref{table:GDP} 是我国近10年的 GDP 增长率，以及三大产业在近10年的增长率。
 
@@ -233,7 +234,7 @@ plt.show() # 显示图形
   \caption{近十年我国的 GDP 以及各产业增长率}\label{fig:gdp}
 \end{figure}
 
-\section{散点图}
+\subsection{散点图}
 
 散点图是数据点在直角坐标系平面上的分布图，在统计学的回归分析与预测中经常用到。用横轴代表变量 $x$，纵轴代表变量 $y$，每组数据 $(x_i, y_i)$ 在坐标系中用一个点表示。
 做散点图要用到 pyplot 中的 scatter 函数，该函数的基本语法为\footnote{在 matplotlib 宏包中，0 到 1 之间的浮点数产生相应的 RGB 颜色}：
@@ -339,7 +340,7 @@ plt.show()
 
 \clearpage
 
-\section{条形图}
+\subsection{条形图}
 
 条形图（bar chart），也称为柱状图，是一种以长方形的长度为变量的统计图表，长方形的长度与它所对应的变量数值呈一定比例。画条形图要用到 pyplot 中的 bar 函数，该函数的基本语法为：
 
@@ -494,7 +495,7 @@ plt.show()
 \end{figure}
 
 \clearpage
-\section{直方图}
+\subsection{直方图}
 
 直方图（histogram）虽然在样式上类似条形图，但它们的作用不一样。直方图用不同的矩形表示频数，常用来观察一组数据的概率分布。在直角坐标中，用横轴表示数据分组，纵轴表示频数或频率，各组与相应的频数就形成了一个个矩形，即直方图。
 
@@ -585,7 +586,7 @@ plt.show()
 
 从图 \ref{fig:hist} 可以看出，每天的顾客数大致符合一个正态分布。
 
-\section{饼图}
+\subsection{饼图}
 
 饼图（pie char）是一个划分为几个扇形的圆形统计图表，一般用于描述频率或百分比之间的相对关系。在饼图中，每个扇区的弧长（以及圆心角和面积）的大小与其所表示的数量呈固定比例。
 
@@ -689,11 +690,11 @@ plt.show()
 \begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.7]{figure/pie2.png}
-  \caption{调查结果的饼图（同事显示比例与原始数据）}\label{fig:pie}
+  \caption{调查结果的饼图（同时显示比例与原始数据）}\label{fig:pie}
 \end{figure}
 
 \clearpage
-\section{箱线图}
+\subsection{箱线图}
 
 箱线图（box plot）在学术论文中经常出现，是一种用来显示一组数据分散情况资料的统计图，由数据的最大值、最小值、中位数、两个四分位数，共五个特征绘制而成。
 
@@ -713,3 +714,6 @@ plt.show()
 
 \end{tabular}
 \end{table}
+
+\section{用 pandas 调用 plot 函数画图}
+\section{画子图函数 subplot}
