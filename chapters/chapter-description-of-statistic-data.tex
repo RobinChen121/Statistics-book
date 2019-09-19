@@ -303,7 +303,7 @@ plt.show()
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics{figure/scatter1.png}
+  \includegraphics[scale=0.9]{figure/scatter1.png}
   \caption{产量与温度的散点图}
 \end{figure}
 
@@ -334,7 +334,7 @@ plt.show()
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics{figure/scatter2.png}
+  \includegraphics[scale=0.8]{figure/scatter2.png}
   \caption{产量与温度、降雨量关系的气泡图}\label{fig:scatter2}
 \end{figure}
 
@@ -450,7 +450,7 @@ plt.show()
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[scale=0.8]{figure/bar2.png}
+  \includegraphics[scale=0.9]{figure/bar2.png}
   \caption{男性购买饮用水条形图（条形横放）}\label{fig:bar2}
 \end{figure}
 
@@ -701,6 +701,7 @@ plt.show()
 
 \begin{table}[!ht]
 \centering
+\renewcommand{\arraystretch}{1.2}
 \caption{学生成绩统计表}
 \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
 \hline
@@ -711,9 +712,37 @@ plt.show()
 市场营销学 & 74 & 87 & 85 & 69 & 90 & 80 & 77 & 84 & 91 & 74 & 70 \\ \hline
 财务管理 & 68 & 75 & 70 & 84 & 73 & 60 & 76 & 81 & 88 & 68 & 75 \\ \hline
 统计学 & 55 & 91 & 68 & 73 & 84 & 81 & 70 & 69 & 94 & 62 & 71 \\ \hline
-
 \end{tabular}
 \end{table}
+
+Python 代码：
+\begin{lstlisting}[Language=Python]
+import numpy as np
+import matplotlib.pyplot as plt
+
+# 这两行代码解决 plt 中文显示的问题
+plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['axes.unicode_minus'] = False
+
+marks = [[76, 90, 97, 71, 70, 93, 86, 83, 78, 85, 81],
+         [93, 81, 76, 88, 66, 79, 83, 92, 78, 86, 78],
+         [74, 87, 85, 69, 90, 80, 77, 84, 91, 74, 70],
+         [68, 75, 70, 84, 73, 60, 76, 81, 88, 68, 75],
+         [70, 73, 92, 65, 78, 87, 90, 70, 66, 79, 68],
+         [55, 91, 68, 73, 84, 81, 70, 69, 94, 62, 71]]
+courses = ('英语', '西方经济学', '市场营销学', '财务管理', '基础会计学', '统计学')
+
+plt.boxplot(marks, showfliers=False)
+plt.xticks(np.arange(1, 7), courses)
+plt.show()
+\end{lstlisting}
+
+显示结果：
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[scale=0.8]{figure/box.png}
+  \caption{考试成绩的箱线图}\label{fig:box}
+\end{figure}
 
 \section{用 pandas 调用 plot 函数画图}
 \section{画子图函数 subplot}

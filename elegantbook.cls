@@ -17,6 +17,9 @@
 \SetupKeyvalOptions{family=ELEGANT, prefix=ELEGANT@, setkeys=\kvsetkeys}
 \newcommand{\ekv}[1]{\kvsetkeys{ELEGANT}{#1}}
 
+% watermark
+\RequirePackage[printwatermark]{xwatermark}
+
 % ----- Colors -----
 \DeclareStringOption[blue]{color}
 \DeclareStringOption[en]{lang}
