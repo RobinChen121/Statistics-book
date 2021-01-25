@@ -12,13 +12,17 @@
 
 %\RequirePackage{textcomp}
 
+\RequirePackage{subfigure}
+
 \RequirePackage{kvoptions}
+\RequirePackage{minitoc}
 \RequirePackage{etoolbox}
 \SetupKeyvalOptions{family=ELEGANT, prefix=ELEGANT@, setkeys=\kvsetkeys}
 \newcommand{\ekv}[1]{\kvsetkeys{ELEGANT}{#1}}
 
 % watermark
 \RequirePackage[printwatermark]{xwatermark}
+\RequirePackage{dingbat} % for check mark
 
 % ----- Colors -----
 \DeclareStringOption[blue]{color}
@@ -393,9 +397,12 @@
 before skip=10pt plus 2pt,
 center title,
 fonttitle=\bfseries,
-colframe=blue!25!yellow!90!white,
-colback=blue!25!yellow!5!white,
-coltitle=blue!25!yellow!40!black,
+%colframe=blue!25!yellow!90!white,
+colback = blue!2!white,
+%colback=blue!25!yellow!5!white,
+%coltitle=blue!25!yellSow!40!black,
+coltitle=blue!10!black,
+colframe=blue!25,
 width = \linewidth,
     common/.style={
         fontupper=\ifdefstring{\ELEGANT@lang}{en}{\itshape}{\upshape\kaishu},
@@ -602,7 +609,7 @@ width = \linewidth,
 		breakable,
 		colback=structurecolor!10,
 		colframe=structurecolor,
-  		fonttitle=\bfseries,
+  		fonttitle=\bfseries\color{white},
   		colbacktitle=structurecolor,
   		fontupper=\ifdefstring{\ELEGANT@lang}{en}{\sffamily}{\kaishu},
   		attach boxed title to top center={yshift=-3mm,yshifttext=-1mm},
@@ -756,28 +763,33 @@ width = \linewidth,
 \lstset{upquote=true} % 调整单引号显示样式
 \lstset{showstringspaces=false}
 
-\definecolor{lightgrey}{rgb}{0.8,0.8,0.8}
+\definecolor{lightgrey}{rgb}{0.98,0.98,0.98}
 \definecolor{frenchplum}{RGB}{190,20,83}
+\definecolor{weborange}{RGB}{139,69,19}
+\definecolor{lightgreen}{RGB}{60,179,113}
 
 \lstset{language=Python,
 	texcsstyle=*\color{winered},
 	numbers=none,
 	breaklines=true,
 	deletekeywords={len},
-	keywords = {import, True, False, as, for, try, and, else, or, lambda, in, break, return, def, continue, final, is, global, elif, if, not, assert, from, with, del},
-	keywordstyle=\color{blue},
+	emph = [1]{import, True, False, as, for, try, and, else, or, lambda, in, break, return, def, continue, final, is, global, elif, if, not, assert, from, with, del, print, while, for, mean, except, del,int,float},
+	emphstyle=[1]{\color{blue}},
 	commentstyle=\color{gray},
+	emph = [2]{In, Out},
+	emphstyle=[2]{\color{weborange}},
 	% emph={elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,device,color,mode,lang,amsthm,tcolorbox,titlestyle,cite,marginnote,ctex,listings},
 	% emphstyle={\color{frenchplum}},
 	% morekeywords={DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont ,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,definecolor,extrainfo,logo,cover,subtitle,appendix,chapter,hypersetup,mainmatter,tableofcontents,elegantpar,numbers,authoryear,heiti,kaishu,lstset,pagecolor,zhnumber,marginpar,part,equote},
 	frame=single,
-	tabsize=2,
+	%tabsize=2,
+	backgroundcolor=\color{lightgrey},
 	rulecolor=\color{structurecolor},
 	framerule=0.2pt,
 	columns=flexible,
 	morestring=[d]{'}, % wrong: should be [b]
   morestring=*[d]{"},
-	stringstyle=\color{olive},
+	stringstyle=\color{lightgreen},
 }
 
 

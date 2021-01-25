@@ -1,12 +1,22 @@
 \chapter{Python 概述与安装}
-\section{Python 的发展历史与应用}
-Python 的诞生时间非常早，第一版 Python 发行于 1991 年，甚至比 Java 的历史都早。在大部分时间内，Python 一直作为一个小众的编程语言，并没有大规模流行起来。近些年来，随着大数据技术、人工智能技术的发展和普及，“简洁、具有良好扩展性”的 Python 非常契合大数据与人工智能技术对编程语言的要求，超越其他编程语言迅速崛起。Python 分别在2010年，2018年被全球知名的编程语言流行度排行榜网站 TIOBE 评为“年度最佳编程语言”，并长期位于各年或各月流行编程语言排行榜的前三名。中国的网络上甚至产生了一句流行语：“人生苦短，我用 Python”。
+
+\setlength{\parskip}{1ex}
+
+\begin{introduction}[学习目标]
+	\item 1. 了解Python 的历史与发展
+	\item 2. 掌握 Python 的安装
+	\item 3. 掌握 Python 包的安装
+\end{introduction}
+
+
+\section{Python 的诞生与应用}
+Python 的诞生时间非常早，第一版 Python 发行于 1991 年，甚至比另一个编程语言 Java 的历史都早。在大部分时间内，Python 一直作为一个小众的编程语言，并没有大规模流行起来。近些年来，随着大数据技术、人工智能技术的发展和普及，“简洁、具有良好扩展性”的 Python 非常契合大数据与人工智能技术对编程语言的要求，超越其他编程语言迅速崛起。Python 分别在2010年，2018年，2020年被全球知名的编程语言流行度排行榜网站 TIOBE 评为“年度最佳编程语言”，并长期位于各年或各月流行编程语言排行榜的前三名。中国的网络上甚至产生了一句流行语：“人生苦短，我用 Python”。
 
 Python 的创始人为荷兰人吉多·范罗苏姆（Guido van Rossum），在 1989 年的圣诞节期间，吉多·范罗苏姆为了打发时间，决心开发一个新的脚本解释程序，作为 ABC语言的继承，于是 Python 诞生了。之所以选择 Python 作为名字，是由于吉多·范罗苏姆非常喜欢一部 BBC 电视剧--- Monty Python's Flying Circus（中文译名：蒙提·派森的飞行马戏团）。 Python 的英文意思为蟒蛇，这也是为什么一些 Python 相关的软件或书籍用蟒蛇作为图标的原因。
 
 Python的设计哲学是“优雅”、“明确”、“简单”，Python 可以说是语法功能最简单的编程语言之一。Python具有良好的可扩展性，Python提供了丰富的接口和工具，以便程序员能够轻松地使用 C、C++、Cython来编写扩展模块，因此，有很多人把Python作为一种“胶水语言”使用。Python是完全面向对象的语言，函数、模块、数字、字符串都是对象，并且完全支持继承、重载、派生、多重继承等，Python 还支持重载运算符。并且随着计算机速度运算速度越来越快，Python 运算速度慢的缺点逐渐可以忽略，因此，许多网站开始使用 Python 开发，许多专业软件也开始支持 Python 调用。
 
-Python 的应用范围包括 Web 开发网站与网络爬虫，GUI 开发桌面软件，科学计算等。使用Python编写的著名应用包括：
+Python 的应用范围包括 Web 开发网站与网络爬虫，GUI 开发桌面软件，科学计算等。使用 Python 编写的著名应用包括：
 
 \vspace{5pt}
 \begin{itemize}
@@ -25,16 +35,17 @@ Python 的应用范围包括 Web 开发网站与网络爬虫，GUI 开发桌面�
 \end{itemize}
 \vspace{5pt}
 
-目前的主要 Python 版本为 Python3，本书的所有 Python 程序都是 Python3 版本。
+Python 2.0 于2000年10月16日发布，Python 3.0于2008年12月3日发布，此版不完全兼容之前的Python源代码。目前的主要 Python 版本为 Python3，本书的所有 Python 程序都是 Python3 版本。
 
-\clearpage
 \section{安装 Python}
 
-使用 Python 时一般有两种方式：一是下载 Anaconda（自带 Python，编辑器 Spyder以及许多常用包），二是下载 Python 和编辑器 Pycharm，从实践经验来看，Pycharm 功能比 Spyder 更多，对程序员来说更加便捷，但 Anaconda 对新手比较友好，很多常用包已经自动安装好了，不用自己专门再下载。若对 python 有一定经验，需要经常用 python 编写程序，推荐使用 Pycharm；若是刚刚接触 python，则推荐使用 Anaconda。
+使用 Python 时一般有两种方式：一是下载 Anaconda（自带 Python，编辑器 Spyder以及许多常用包），二是下载 Python 和编辑器 Pycharm，从实践经验来看，Pycharm 功能比 Spyder 更多，对程序员来说更加便捷，但 Anaconda 对新手比较友好，很多常用包已经自动安装好了，不用自己专门再下载。若对 Python 有一定经验，需要经常用 Python 编写程序，推荐使用 Pycharm；若是刚刚接触 Python，则推荐使用 Anaconda。
 
-\subsection{Anaconda}
+\subsection{Anaconda + Spyder}
 
-Anaconda包括Python、Spyder 以及一大堆安装好的工具包，比如：numpy、pandas、matplot、scipy，在 Anaconda 里面还可以使用 R 语言、Notebook 等。 Anaconda 下载的官方网址为：\href{https://www.anaconda.com/distribution}{https://www.anaconda.com/distribution}。点击 Downloand 选择自己操作系统的 Python 3 版本下载（本书的软件安装以 Windows 系统为例）。
+Anaconda包括 Spyder 编译器以及一大堆安装好的工具包，比如：numpy、pandas、matplotlib、scipy，在 Anaconda 里面还可以使用 R 语言、Notebook 等。
+
+ Anaconda 下载的官方网址为：\href{https://www.anaconda.com/distribution}{https://www.anaconda.com/distribution}。点击 Downloand 选择自己操作系统的 Python 3 版本下载（本书的软件安装以 Windows 系统为例）。
 
 \begin{figure}[!ht]
   \centering
@@ -78,7 +89,6 @@ Anaconda包括Python、Spyder 以及一大堆安装好的工具包，比如：nu
 
 安装完毕后，在 Windows 菜单栏里找到名为“Anaconda-Navigator”的图标，点击打开 Anaconda。
 
-\clearpage
 \begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.5]{figure/chapter1/anaconda11.png}
@@ -93,7 +103,7 @@ Anaconda包括Python、Spyder 以及一大堆安装好的工具包，比如：nu
 \end{figure}
 
 
-Spyder 的界面非常类似 Matlab，交互式工具 Ipython console 就在窗口界面中。我们在 Ipython 中输入 print(`Hello world')，目的是让 Python 把 Hello World 打印到屏幕上，测试 Spyder的运行。
+Spyder 的界面非常类似 Matlab，交互式工具 IPython console 就在窗口界面中。我们在 IPython 中输入 print(`Hello world')，目的是让 Python 把 Hello World 打印到屏幕上，测试 Spyder的运行。
 
 \begin{figure}[!ht]
   \centering
@@ -101,40 +111,40 @@ Spyder 的界面非常类似 Matlab，交互式工具 Ipython console 就在窗�
 \end{figure}
 
 
-\clearpage
+
 \subsection{Python + Pycharm}
 
-另外一种方式是使用 Pycharm 编写 Python 程序，但由于 Pycharm 并不自带 python，我们还需要专门把 python 下载下来。
+另外一种方式是使用 Pycharm 编写 Python 程序，但由于 Pycharm 并不自带 Python，我们还需要专门把 Python 下载下来。
 
-\subsubsection{下载python}
+\subsubsection{下载Python}
 
-Python 的官方网址为：\href{https://www.python.org}{https://www.python.org}。打开网址后，从 Download 里面可以找到不同操作系统的 python 版本下载。下面我们以 Windows 系统为例讲述 Python 的安装。
+Python 的官方网址为：\href{https://www.Python.org}{https://www.Python.org}。打开网址后，从 Download 里面可以找到不同操作系统的 Python 版本下载。下面我们以 Windows 系统为例讲述 Python 的安装。
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[scale=0.6]{figure/chapter1/pythonDownload.png}
+  \includegraphics[scale=0.6]{figure/chapter1/PythonDownload.png}
 \end{figure}
 
 下载完成后，双击 exe 文件安装，切记要勾选 Add Python 3.7 to PATH, 然后点击 Install Now（默认安装目录，默认安装 pip 等）或 Customize installation（可以自己设置安装目录等），我们选择 Customize installation。
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[scale=0.4]{figure/chapter1/pythonDownload2.png}\quad
-  \includegraphics[scale=0.4]{figure/chapter1/pythonDownload4.png}
+  \includegraphics[scale=0.4]{figure/chapter1/PythonDownload2.png}\quad
+  \includegraphics[scale=0.4]{figure/chapter1/PythonDownload4.png}
 \end{figure}
 
 \clearpage
 \begin{figure}[ht]
   \centering
-  \includegraphics[scale=0.4]{figure/chapter1/pythonDownload5.png}\quad
-  \includegraphics[scale=0.4]{figure/chapter1/pythonDownload6.png}
+  \includegraphics[scale=0.4]{figure/chapter1/PythonDownload5.png}\quad
+  \includegraphics[scale=0.4]{figure/chapter1/PythonDownload6.png}
 \end{figure}
 
-为了测试 Python 是否安装成功，打开命令行窗口（win10 系统中敲 win 健，再输入 cmd，然后回车），输入 python -{}-version（注意是两个短横线），若能显示 Python 的版本信息，则代表 python 已正确安装。
+为了测试 Python 是否安装成功，打开命令行窗口（win10 系统中敲 win 健，再输入 cmd，然后回车），输入 Python -{}-version（注意是两个短横线），若能显示 Python 的版本信息，则代表 Python 已正确安装。
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[scale=0.7]{figure/chapter1/pythonDownload3.png}
+  \includegraphics[scale=0.7]{figure/chapter1/PythonDownload3.png}
 \end{figure}
 
 \subsubsection{下载 Pycharm}
@@ -202,7 +212,7 @@ Pycharm 的官方网址：\href{http://www.jetbrains.com/pycharm}{http://www.jet
 %
 
 
-为了测试 Pycharm 是能安装成功，可以点击 Pycharm 界面最下面的 Python Console，打开控制台（Python Console 是一个交互式的 python 编辑器，可以快速运行一些指令，一般调试时用），输入一条 Python 指令：print(`Hello World')，若能正确运行，则表示 Pycharm 安装成功了。
+为了测试 Pycharm 是能安装成功，可以点击 Pycharm 界面最下面的 Python Console，打开控制台（Python Console 是一个交互式的 Python 编辑器，可以快速运行一些指令，一般调试时用），输入一条 Python 指令：print(`Hello World')，若能正确运行，则表示 Pycharm 安装成功了。
 
 \clearpage
 
@@ -211,7 +221,7 @@ Pycharm 的官方网址：\href{http://www.jetbrains.com/pycharm}{http://www.jet
   \includegraphics[scale=0.4]{figure/chapter1/pycharm4.png}
 \end{figure}
 
-有时候可能提醒我们设置 Pycharm 中的 Python 解释器。设置方式如下：依次点击 file--settings--project interpreter，将 interpreter 设置为我们 Python 安装路径中的 python.exe（笔者电脑的位置为 \path{D:\python:\python.exe}）。
+有时候可能提醒我们设置 Pycharm 中的 Python 解释器。设置方式如下：依次点击 file--settings--project interpreter，将 interpreter 设置为我们 Python 安装路径中的 Python.exe（笔者电脑的位置为 \path{D:\Python:\Python.exe}）。
 
 \begin{figure}[!ht]
   \centering
@@ -247,11 +257,11 @@ Pycharm 的官方网址：\href{http://www.jetbrains.com/pycharm}{http://www.jet
 \end{figure}
 
 \clearpage
-\section{统计学常用 Python 工具包的安装}
+\section{数据分析常用 Python 工具包的安装}
 
 Python 的最大优势在于它有很多第三方开发的包，能够实现各种各样的功能。若我们使用 Anaconda，一般可以通过 conda 工具安装。若我们使用 Pycharm，一般用 pip 工具进行安装。
 
-统计学的常用包有：
+数据分析的常用包有：
 
 \vspace{5pt}
 \begin{itemize}
@@ -259,18 +269,20 @@ Python 的最大优势在于它有很多第三方开发的包，能够实现各�
 
   \item pandas --- 用于处理表格数据，数据分析的重要工具
 
-  \item xlrd --- 用于读取 excel 数据
+  \item matplotlib --- 常用的基础绘图包
 
-  \item openpyxl --- 用于存储 pandas 数据到 excel
+  \item seaborn --- 另外一个绘图包
 
-  \item matplotlib --- 绘图包
+  \item scipy --- 科学计算包，包括一些基础的统计学
 
-  \item scipy --- 所有基础的科学算法，包括一些基础的统计学
+  \item statsmodels --- 统计建模与分析包
 
-  \item statsmodels --- 用于统计学建模和高级分析
+  \item sklearn --- 机器学习包
 
+  %\item xlrd --- 用于读取 excel 数据
 
-  \item seaborn --- 对统计数据进行可视化
+  %\item openpyxl --- 用于存储 pandas 数据到 excel
+
 
 \end{itemize}
 \vspace{5pt}
@@ -301,10 +313,10 @@ Anaconda 已经默认帮我们安装了很多常用的包，很多时候并不�
 \end{tcolorbox}
 \end{center}
 
-例如，安装 numpy 包的命令输入为：conda install numpy。不过，国内用 conda 安装包时的下载网速有时候比较慢。
+例如，安装 numpy 包的命令输入为：conda install numpy。不过，国内用 conda 安装包时的网速有时候比较慢。
 
 \subsection{用 pip 安装}
-pip 是 Python 包管理工具，该工具提供了对 Python 包的查找、下载、安装、卸载的功能。在我们安装 python 时， pip 也是自动安装的，并且 pip 的地址已经添加到了计算机的环境变量里了。 打开命令行窗口（win10 系统中敲 win 健，再输入 cmd，然后回车），输入 pip （有时候若电脑里其他软件也内置 pip，则需要输入 pip.exe才能正确显示）回车，若能显示如下图所示的很多内容，则表示 pip 已经成功安装了。
+pip 是 Python 包管理工具，该工具提供了对 Python 包的查找、下载、安装、卸载的功能。在我们安装 Python 时， pip 也是自动安装的，并且 pip 的地址已经添加到了计算机的环境变量里了。 打开命令行窗口（win10 系统中敲 win 健，再输入 cmd，然后回车），输入 pip （有时候若电脑里其他软件也内置 pip，则需要输入 pip.exe才能正确显示）回车，若能显示如下图所示的很多内容，则表示 pip 已经成功安装了。
 
 \begin{figure}[!ht]
   \centering

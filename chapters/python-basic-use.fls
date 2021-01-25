@@ -1,0 +1,12 @@
+PWD D:/Users/chen_/git/Statistics-book/chapters
+INPUT d:/texlive/2019/texmf.cnf
+INPUT d:/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt
+INPUT python-basic-use.tex
+OUTPUT python-basic-use.log
+INPUT d:/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
+INPUT d:/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
+INPUT d:/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
+INPUT d:/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
+INPUT d:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm

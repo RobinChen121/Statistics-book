@@ -1,14 +1,14 @@
 # Fdb version 3
-["xdvipdfmx"] 1568785054 "numpy-Pandas.xdv" "numpy-Pandas.pdf" "numpy-Pandas" 1568785054
-  "numpy-Pandas.xdv" 1568785053 172 f61baaca6261f74047ad508f5d589011 "xelatex"
+["xdvipdfmx"] 1595896060 "numpy-Pandas.xdv" "numpy-Pandas.pdf" "numpy-Pandas" 1595896061
+  "numpy-Pandas.xdv" 1595896059 172 e2333d2f77e5e56ed60730452856018b "xelatex"
   (generated)
   "numpy-Pandas.pdf"
-["xelatex"] 1568785053 "numpy-Pandas.tex" "numpy-Pandas.xdv" "numpy-Pandas" 1568785054
+["xelatex"] 1595896054 "numpy-Pandas.tex" "numpy-Pandas.xdv" "numpy-Pandas" 1595896061
   "d:/texlive/2019/texmf-dist/web2c/texmf.cnf" 1565871058 39359 08243a440b2635053cec8490846b238a ""
   "d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1565873138 3752616 15ccc77ef067a984bd70e7c57178895e ""
   "d:/texlive/2019/texmf.cnf" 1565872905 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "numpy-Pandas.aux" 1568643528 9 a94a2480d3289e625eea47cd1b285758 ""
-  "numpy-Pandas.tex" 1568785052 9072 c32a527cfd74c0fc3e1f5a8913cee2ca ""
+  "numpy-Pandas.aux" 1589441743 9 a94a2480d3289e625eea47cd1b285758 ""
+  "numpy-Pandas.tex" 1589960227 60795 c13cce5b2ba293f4b4602a25931ac811 ""
   (generated)
   "numpy-Pandas.xdv"
   "numpy-Pandas.log"

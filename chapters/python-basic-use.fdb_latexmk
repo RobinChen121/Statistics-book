@@ -1,0 +1,18 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "python-basic-use.xdv" "python-basic-use.pdf" "python-basic-use" 0
+  "python-basic-use.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "python-basic-use.pdf"
+["xelatex"] 1589361689 "python-basic-use.tex" "python-basic-use.xdv" "python-basic-use" 1589361691
+  "d:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1565870673 3332 103109f5612ad95229751940c61aada0 ""
+  "d:/texlive/2019/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm" 1565871240 1308 02cc510f9dd6012e5815d0c0ffbf6869 ""
+  "d:/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd" 1565871240 1013 f8133048bddeed1bf1041c9d830a3723 ""
+  "d:/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd" 1565871240 805 af340a8260c447aa315cfc740ff0152f ""
+  "d:/texlive/2019/texmf-dist/web2c/texmf.cnf" 1565871058 39359 08243a440b2635053cec8490846b238a ""
+  "d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1565873138 3752616 15ccc77ef067a984bd70e7c57178895e ""
+  "d:/texlive/2019/texmf.cnf" 1565872905 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+  "python-basic-use.aux" 1588646988 9 a94a2480d3289e625eea47cd1b285758 ""
+  "python-basic-use.tex" 1589361688 41061 dbc4c70589daa01411e9cfa3463165f1 ""
+  (generated)
+  "python-basic-use.xdv"
+  "python-basic-use.log"

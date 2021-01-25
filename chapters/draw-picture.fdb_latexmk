@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 1589952986 "draw-picture.xdv" "draw-picture.pdf" "draw-picture" 1589952987
+  "draw-picture.xdv" 1589952985 9068 8b30aa2e31ddeffb8ba78c991ce0f188 "xelatex"
+  (generated)
+  "draw-picture.pdf"
+["xelatex"] 1589952984 "draw-picture.tex" "draw-picture.xdv" "draw-picture" 1589952987
+  "d:/texlive/2019/texmf-dist/web2c/texmf.cnf" 1565871058 39359 08243a440b2635053cec8490846b238a ""
+  "d:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1565873138 3752616 15ccc77ef067a984bd70e7c57178895e ""
+  "d:/texlive/2019/texmf.cnf" 1565872905 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+  "draw-picture.aux" 1589529571 9 a94a2480d3289e625eea47cd1b285758 ""
+  "draw-picture.tex" 1589952983 30162 fbbbef303416bd0ffb7d129e695bf468 ""
+  (generated)
+  "draw-picture.log"
+  "draw-picture.xdv"
